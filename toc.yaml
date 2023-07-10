@@ -1,0 +1,80 @@
+---
+toc:
+  properties:
+    subcollection: sap-powervs
+    industry: ITServiceManagement
+    use-case: Technology
+    compliance: SAPCertified
+    audience: solution
+    content-type: deployment
+    href: /docs/sap-powervs
+    path: sap-powervs
+    deployable: true
+    description: Deploy your first SAP-ready landscape by using SAP solution provisioning with a deployable architecture.
+    label: Power Systems Virtual Server for SAP HANA
+
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - topic: overview.md
+        navtitle: Overview
+      - topic: release-notes.md
+        navtitle: Release notes
+
+  - navgroup:
+      id: architecture
+      topics:
+      - include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
+
+  - navgroup:
+      id: plan
+      topics:
+      - dependencies.md
+      - vpc-presets.md
+      - topic: prereqs.md
+        navtitle: Before you begin deploying
+
+  - navgroup:
+      id: deploy
+      topics:
+      - topic: deploy.md
+        navtitle: Deploying the architecture
+      - mgmt-monitoring.md
+      - access.md
+
+  - navgroup:
+      id: reference
+      topics:
+      - security-and-compliance.md
+      - topic: responsibilities.md
+        navtitle: Responsibilities
+
+  - navgroup:
+      id: help
+      topics:
+      - topic: support.md
+        navtitle: Getting help and support
+      - topic: faqs.md
+        navtitle: FAQs
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - topicgroup:
+              label: Troubleshooting deployment
+              topics:
+              - troubleshoot-deploy.md
+          - topicgroup:
+              label: Troubleshooting Schematics
+              topics:
+              - include: ../schematics/troubleshooting/apply_500_errors.md
+                navtitle: Why am I getting 5xx errors in Schematics?
+              - include: ../schematics/troubleshooting/apply_nullresource.md
+                navtitle: How can I find the root cause of Schematics apply failures?
+          - topicgroup:
+              label: Troubleshooting projects
+              topics:
+              - include: ../secure-enterprise/ts-needs-attention.md
+                navtitle: How do I address a failed validation?
+              - include: ../secure-enterprise/ts-deploy.md
+                navtitle: How do I address a failed deployment?
