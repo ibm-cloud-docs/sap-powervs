@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-10"
+lastupdated: "2023-11-03"
 
 keywords:
 
@@ -29,6 +29,6 @@ SAP solution provisioning as deployable architectures creates a secure and isola
 After the configuration, you can connect to the landscape by using following SSH command:
 
 ```sh
-ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand=\"ssh -W %h:%p root@\<access_host_floating_ip\>\" root@\<powervs_instance_ip\>
+ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand=\"ssh -W %h:%p root@\<access_host_or_ip\>\" root@\<powervs_instance_ip\>
 ```
 
