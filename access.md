@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-11-03"
+lastupdated: "2023-11-10"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: sap-powervs
 # Accessing the environment
 {: #sap-power-automation-solution-access}
 
-After a successful deployment, {{site.data.keyword.bplong_notm}} provides an output log that lists all IP addresses of the created VPC and PowerVS instances. These IP addresses include:
+After a successful deployment, {{site.data.keyword.bplong_notm}} provides an output log that lists all IP addresses of the created PowerVS instances. These IP addresses include:
     - An access host IP address that is the entry point to the whole landscape.
     - NFS, DNS, NTP server IP addresses.
     - PowerVS instance IP addresses for SAP HANA (management IP, backup IP, SAP system IP)
@@ -28,7 +28,13 @@ SAP solution provisioning as deployable architectures creates a secure and isola
 
 After the configuration, you can connect to the landscape by using following SSH command:
 
+To connect to the HANA instance:
 ```sh
-ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand=\"ssh -W %h:%p root@\<access_host_or_ip\>\" root@\<powervs_instance_ip\>
+ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand="ssh -W %h:%p root@<access_host_or_ip>" root@<powervs_hana_instance_management_ip>
+```
+
+To connect to the NetWeaver instance:
+```sh
+ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand="ssh -W %h:%p root@<access_host_or_ip>" root@<powervs_netweaver_instance_management_ip>
 ```
 
