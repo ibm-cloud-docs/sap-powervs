@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-10"
+lastupdated: "2023-11-10"
 
 keywords:
 
@@ -36,7 +36,7 @@ To ensure that the support team can start investigating your case to provide a t
 1. Copy and paste into the case details the portion of the log that provides the architecture information. The following is an example of what should be copied:
 
    ```sh
-   023/04/13 20:50:40 Related Workspace: name=auto-test-infra-osa21-13-04-2023, sourcerelease=(not specified), sourceurl=https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure/archive/v6.2.0.tar.gz, folder=terraform-ibm-powervs-infrastructure-6.2.0/examples/ibm-catalog/deployable-architectures/full-stack
+   023/04/13 20:50:40 Related Workspace: name=auto-test-infra-osa21-13-04-2023, sourcerelease=(not specified), sourceurl=https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure/archive/v1.2.0.tar.gz, folder=terraform-ibm-powervs-infrastructure-1.2.0/solutions/ibm-catalog/full-stack
    ```
 
 

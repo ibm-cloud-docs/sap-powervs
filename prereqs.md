@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-10"
+lastupdated: "2023-11-10"
 
 keywords:
 
@@ -79,18 +79,18 @@ You need the following access to create a project and create project tooling res
 
 For more information, see [Assigning users access to projects](/docs/secure-enterprise?topic=secure-enterprise-access-project).
 
-## Upload SAP software installation packages
+## For Variation 'SAP S/4HANA or BW/4HANA' SAP software installation packages
 {: #sap-powervs-automation-sap-install-packages}
 
-Upload SAP software installation packages and SAP maintenance planer XML files to an existing {{site.data.keyword.cos_short}} bucket. 
-
-To configure access to these software packages from a running virtual server instance, you need following information:
+This applies to 'SAP S/4HANA or BW/4HANA' variation only. 
+1. **It is required to have an existing IBM Cloud Object Storage (COS) instance**. Within the instance, an {{site.data.keyword.cos_short}} Bucket containing the **SAP Software installation media files is required in correct folder structure as defined** [here](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-s4hana-bw4hana/README.md#2-sap-binaries-required-for-installation-and-folder-structure-in-ibm-cloud-object-storage-bucket).
+1. To configure access to these software packages from a running virtual server instance, you need following information:
    * {{site.data.keyword.cos_short}} endpoint
    * {{site.data.keyword.cos_short}} bucket name
    * {{site.data.keyword.cos_short}} HMAC access key
    * {{site.data.keyword.cos_short}} HMAC secret access key
 
-For more information about configuring API access in {{site.data.keyword.cos_short}}, see the [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and [Service credentials](/docs/cloud-object-storage?topic=cloud-object-storage-service-credentia) documentation.
+For more information about configuring API access in {{site.data.keyword.cos_short}}, see the [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and [Service credentials](/docs/cloud-object-storage?topic=cloud-object-storage-service-credentials) documentation.
 
 ## Define hostnames
 {: #sap-powervs-automation-define-hostnames}
