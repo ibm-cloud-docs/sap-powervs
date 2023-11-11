@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-10"
+lastupdated: "2023-11-10"
 
 keywords:
 
@@ -32,7 +32,7 @@ SAP-certified designates that the deployable architecture creates services that 
 {: #sap-powervs-automation-fs-sap-duration}
 {: faq}
 
-Duration for the deployment depends on the daily {{site.data.keyword.cloud_notm}} data center utilization and on the size and number of PowerVS instances. You can assume that a deployment of one SAP system as 'SAP ready PowerVS' takes about 1 to 2 hours. SAP software installation is additional time.
+Duration for the deployment depends on the daily {{site.data.keyword.cloud_notm}} data center utilization and on the size and number of PowerVS instances. You can assume that a deployment of one SAP system as 'SAP ready PowerVS' takes upto 1 hour and for variation SAP S/4HANA or BW/4HANA upto 2 hours.
 
 ## Why certain IBM Cloud data centers might not be available?
 {: #sap-powervs-automation-fs-sap-dc-selection}

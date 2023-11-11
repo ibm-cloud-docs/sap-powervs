@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-10"
+lastupdated: "2023-11-10"
 
 keywords: 
 
@@ -32,6 +32,7 @@ If the deployment process does not finish successfully, we recommend first looki
 {: tsResolve}
 
 - Ensure that all prerequisites are applied according to the [planning guide](/docs/sap-powervs?topic=sap-powervs-sap-powervs-automation-planning)
-- Verify that correct input parameters are provided as described in the [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/examples/ibm-catalog/deployable-architectures/sap-ready-to-go/README.md){: external}
+- Verify for variation **SAP ready PowerVS** correct input parameters are provided as described in [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-ready-to-go/README.md){: external}.
+- Verify for variation **SAP S/4HANA or BW/4HANA** correct input parameters are provided as described in [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-s4hana-bw4hana/README.md){: external}.
 
 If you still cannot solve your issue, open a case in the {{site.data.keyword.cloud_notm}} support center.

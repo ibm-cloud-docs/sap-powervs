@@ -1,2 +1,2 @@
-# sap-powervs
-Documentation repository for sap-powervs
+# powervs-sap
+Documentation repository for powervs-sap
