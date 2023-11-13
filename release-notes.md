@@ -4,7 +4,7 @@ copyright:
   years: 2023
 lastupdated: "2023-11-10"
 
-keywords: 
+keywords:
 
 subcollection: sap-powervs
 
@@ -17,21 +17,23 @@ content-type: release-note
 # Release notes for the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture
 {: #sap-powervs-relnotes}
 
-Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries grouped by date.
+Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
 ## 10 November 2023
 {: #sap-powervs-nov10}
 {: release-note}
+
 Version 1.3.0 available
 :   Version 1.3.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - This version requires `v3.0.0` of [Power Virtual Server with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global){: external} deployable architecture.
-    - New variation **'SAP S/4HANA or BW/4HANA'** solution is now supported and can be consumed from DA.
+    - New variation **'SAP S/4HANA or BW/4HANA'** solution is now supported and can be consumed from the deployable architecture.
 
 
 ## 09 November 2023
 {: #sap-powervs-nov09}
 {: release-note}
+
 Version 1.2.1 available
 :   Version 1.2.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - This version requires `v3.0.0` of [Power Virtual Server with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global){: external} deployable architecture.
@@ -41,6 +43,7 @@ Version 1.2.1 available
 ## 03 November 2023
 {: #sap-powervs-nov03}
 {: release-note}
+
 Version 1.2.0 available
 :   Version 1.2.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - This version requires `v3.0.0` of [Power Virtual Server with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global){: external} deployable architecture.
@@ -52,6 +55,7 @@ Version 1.2.0 available
 ## 06 September 2023
 {: #sap-powervs-sep06}
 {: release-note}
+
 Version 1.1.0 available
 :   Version 1.1.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Support for `DAL10` DC enabled where `PER` is supported.
@@ -63,6 +67,7 @@ Version 1.1.0 available
 ## 30 April 2023
 {: #sap-powervs-apr30}
 {: release-note}
+
 Version 1.0.0 available
 :   Version 1.0.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Introduced the solution. You can use the deployable architecture to create a {{site.data.keyword.powerSys_notm}} for SAP HANA landscape.
