@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-10"
+lastupdated: "2023-11-10"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: sap-powervs
 # Before you begin deploying the Power Virtual Server for SAP HANA deployable architecture
 {: #sap-powervs-automation-planning}
 
-This deployment guide covers prerequisite for Power Virtual Server for SAP HANA deployable architecture. 
+This deployment guide covers prerequisite for Power Virtual Server for SAP HANA deployable architecture.
 {: shortdesc}
 
 ## Confirm your {{site.data.keyword.cloud_notm}} settings
@@ -71,7 +71,7 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 You can use {{site.data.keyword.cloud_notm}} projects as a deployment option. Projects are designed with infrastructure as code and compliance in mind to help ensure that your projects are managed, secure, and always compliant. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
-You need the following access to create a project and create project tooling resources within the account. Make sure that you have the following access:
+You need the following access to create a project and create project resources within the account. Make sure that you have the following access:
 
 - The Editor role on the Projects service
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
@@ -79,23 +79,27 @@ You need the following access to create a project and create project tooling res
 
 For more information, see [Assigning users access to projects](/docs/secure-enterprise?topic=secure-enterprise-access-project).
 
-## Upload SAP software installation packages
+## For the SAP S/4HANA or BW/4HANA variation SAP software installation packages
 {: #sap-powervs-automation-sap-install-packages}
 
-Upload SAP software installation packages and SAP maintenance planer XML files to an existing {{site.data.keyword.cos_short}} bucket. 
+You must have an existing IBM Cloud Object Storage instance.
+{: important}
 
-To configure access to these software packages from a running virtual server instance, you need following information:
-   * {{site.data.keyword.cos_short}} endpoint
-   * {{site.data.keyword.cos_short}} bucket name
-   * {{site.data.keyword.cos_short}} HMAC access key
-   * {{site.data.keyword.cos_short}} HMAC secret access key
+These steps apply to the SAP S/4HANA or BW/4HANA variation only.
 
-For more information about configuring API access in {{site.data.keyword.cos_short}}, see the [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and [Service credentials](/docs/cloud-object-storage?topic=cloud-object-storage-service-credentia) documentation.
+1. Within the instance, an {{site.data.keyword.cos_short}} bucket that contains the SAP Software installation media files is required. Follow the folder structure as defined in the [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-s4hana-bw4hana/README.md#2-sap-binaries-required-for-installation-and-folder-structure-in-ibm-cloud-object-storage-bucket){: external}.
+1. To configure access to these software packages from a running virtual server instance, you need the following information:
+    - {{site.data.keyword.cos_short}} endpoint
+    - {{site.data.keyword.cos_short}} bucket name
+    - {{site.data.keyword.cos_short}} HMAC access key
+    - {{site.data.keyword.cos_short}} HMAC secret access key
+
+For more information about configuring API access in {{site.data.keyword.cos_short}}, see the [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and [Service credentials](/docs/cloud-object-storage?topic=cloud-object-storage-service-credentials) documentation.
 
 ## Define hostnames
 {: #sap-powervs-automation-define-hostnames}
 
-Define hostnames for all the SAP services that you will deploy in the landscape. You will perform mapping of the hostnames to the IP addresses later after resources become provisioned. The domain name must be the same for all hostnames belonging to one SAP system.
+Define hostnames for all the SAP services that you will deploy in the landscape. You will map the hostnames to the IP addresses later after the resources are provisioned. The domain name must be the same for all hostnames that belong to one SAP system.
 
 ## Determine size parameters
 {: #sap-powervs-automation-size-parameters}
@@ -104,29 +108,29 @@ Determine the size parameters for each SAP workload that you plan to deploy. The
 
 For more information, see [Sizing process for SAP Systems](/docs/sap?topic=sap-sizing) and see [SAP Sizing](https://service.sap.com/quicksizer).
 
-For deployment of each SAP system, you must be aware about how many SAP NetWeaver instances you plan to deploy. Decide if you plan to use a separate PowerVS instance for hosting SAP shared files.
+For deployment of each SAP system, you must be aware about how many SAP NetWeaver instances you plan to deploy. Decide whether you plan to use a separate PowerVS instance for hosting SAP shared files.
 
-For deployment of each SAP NetWeaver PowerVS instance, you must be aware of following sizing parameters:
+For deployment of each SAP NetWeaver PowerVS instance, you must be aware of the following sizing parameters:
 
-* Memory size
-* Number of CPUs
+- Memory size
+- Number of CPUs
 
-For deployment of SAP HANA PowerVS instance, you must be aware of following sizing parameters:
+For deployment of SAP HANA PowerVS instance, you must be aware of the following sizing parameters:
 
-* SAP t-shirt size as combination of memory and number of CPUs
+- SAP t-shirt size as combination of memory and number of CPUs
 
 ## Learn about deployment input parameters
 {: #sap-powervs-automation-input-parameters}
 
 Ensure that you are familiar with the required input for the deployment execution. See [description for input parameters](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/examples/ibm-catalog/deployable-architectures/sap-ready-to-go/README.md){: external}.
 
-## Additional background information
+## Other background information
 {: #sap-power-automation-prereqs-additional}
 
 - [IBM Power Systems Virtual Servers service documentation](/docs/power-iaas)
 - [SAP on IBM Cloud documentation](/docs/sap)
 - [Deployable architecture code](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap){: external}
 - Main dependencies:
-   - [https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure){: external}
-   - [https://galaxy.ansible.com/ibm/power_linux_sap](https://galaxy.ansible.com/ibm/power_linux_sap){: external}
-   - [https://galaxy.ansible.com/community/sap_install](https://galaxy.ansible.com/community/sap_install){: external}
+    - [https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure){: external}
+    - [https://galaxy.ansible.com/ibm/power_linux_sap](https://galaxy.ansible.com/ibm/power_linux_sap){: external}
+    - [https://galaxy.ansible.com/community/sap_install](https://galaxy.ansible.com/community/sap_install){: external}
