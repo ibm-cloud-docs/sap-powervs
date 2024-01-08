@@ -37,7 +37,6 @@ toc:
         - vpc-presets.md
         - topic: prereqs.md
           navtitle: Before you begin deploying
-        - fiops-storage.md
 
     - navgroup:
         id: deploy
