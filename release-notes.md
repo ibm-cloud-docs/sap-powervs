@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-11-22"
+  years: 2024
+lastupdated: "2024-01-08"
 
 keywords:
 
@@ -19,6 +19,14 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## 08 January 2024
+{: #powervs-vpc-jan08}
+{: release-note}
+
+Version 1.5.1 of the available
+:   Version 1.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Upgrade terraform IBM provider version to `1.61.0`
 
 ## 22 November 2023
 {: #sap-powervs-nov22}
