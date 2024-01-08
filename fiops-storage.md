@@ -15,6 +15,9 @@ subcollection: sap-powervs
 # Sample Storage configuration based on Flexible IOPS
 {: #sap-fiops-config}
 
+See [Flexible IOPS](/docs/power-iaas?topic=power-iaas-about-virtual-server#storage-tiers) to learn more about the feature.
+{: note}
+
 The storage tier and capacity that is recommended for deployment of SAP S/4HANA on Power Virtual Server is described in this topic. These recommendations are based on the best practices and to meet the minimum performance criteria defined by HCMT.
 {: shortdesc}
 
