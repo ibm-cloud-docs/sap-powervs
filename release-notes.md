@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-08"
+lastupdated: "2024-01-30"
 
 keywords:
 
@@ -20,6 +20,15 @@ content-type: release-note
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
+## 30 January 2024
+{: #powervs-vpc-jan30}
+{: release-note}
+
+Version 1.6.1 of the available
+:   Version 1.6.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Fixes SAP SWPM hdbuserstore config by setting correct port for proper communication between Netweaver instance and HANA DB host. This fix is applicable for `S/4HANA and BW/4HANA solution` variation only.
+
+
 ## 12 January 2024
 {: #powervs-vpc-jan12}
 {: release-note}
@@ -35,6 +44,7 @@ Version 1.6.0 of the available
     - Use this version for new deployments in Frankfurt 1 `eu-de-1` and Frankfurt 2 `eu-de-2` {{site.data.keyword.powerSys_notm}} zones.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
+
 ## 08 January 2024
 {: #powervs-vpc-jan08}
 {: release-note}
@@ -42,6 +52,7 @@ Version 1.6.0 of the available
 Version 1.5.1 of the available
 :   Version 1.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade terraform IBM provider version to `1.61.0`
+
 
 ## 22 November 2023
 {: #sap-powervs-nov22}
