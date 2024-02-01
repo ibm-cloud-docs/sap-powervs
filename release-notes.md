@@ -29,7 +29,7 @@ Version 1.7.0 of the available
     - Upgrade Dallas 12 `dal12` DC to PER. New deployments in Dallas 12 region will make use of PER.
 
 [Warning]{: tag-red}
-: Version 4.4.0 includes backward-incompatible changes for Dalla 12 `dal12` DC only. 
+: Version 1.7.0 includes backward-incompatible changes for Dalla 12 `dal12` DC only. 
     - Do not upgrade to this version if previous deployments were made in Dallas 12 `dal12` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in Dallas 12 `dal12` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
