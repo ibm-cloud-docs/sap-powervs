@@ -20,6 +20,20 @@ content-type: release-note
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
+## 18 March 2024
+{: #powervs-vpc-mar18}
+{: release-note}
+
+Version 1.9.0 of the available
+: Version 1.9.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Upgrade Tokyo 04 `tok04` DC to PER. New deployments in Tokyo region will make use of PER.
+
+[Warning]{: tag-red}
+: Version 1.9.0 includes backward-incompatible changes for Tokyo 04 `tok04` DC only. 
+    - Do not upgrade to this version if previous deployments were made in Tokyo 04 `tok04` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER.
+    - Use this for new deployments in Tokyo 04 `tok04` {{site.data.keyword.powerSys_notm}} zone.
+    - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
+
 ## 7 February 2024
 {: #powervs-vpc-feb7}
 {: release-note}
