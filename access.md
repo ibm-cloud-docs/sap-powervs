@@ -13,7 +13,7 @@ subcollection: sap-powervs
 {{site.data.keyword.attribute-definition-list}}
 
 # Accessing the environment
-{: #sap-power-automation-solution-access}
+{: #automation-solution-access}
 
 After a successful deployment, {{site.data.keyword.bplong_notm}} provides an output log that lists all IP addresses of the created PowerVS instances. These IP addresses include the following resources:
 

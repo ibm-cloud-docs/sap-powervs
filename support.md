@@ -14,7 +14,7 @@ subcollection: sap-powervs
 
 
 # Getting help and support for Power Systems Virtual Server for SAP HANA
-{: #sap-powervs-automation-solution-support}
+{: #automation-solution-support}
 
 If you experience an issue or have questions when deploying Power Systems Virtual Server for SAP HANA, you can use the following resources before you open a support case.
 {: shortdesc}
@@ -28,7 +28,7 @@ If you experience an issue or have questions when deploying Power Systems Virtua
 If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
 
 ## Providing support case details
-{: #sap-powervs-automation-support-case-details}
+{: #automation-solution-support-case-details}
 
 To ensure that the support team can start investigating your case to provide a timely resolution, you must include the architecture name, source URL, and version from your Schematics log.
 
@@ -41,7 +41,7 @@ To ensure that the support team can start investigating your case to provide a t
 
 
 ## Routing your support case expeditiously 
-{: #sap-powervs-automation-support-case-routing}
+{: #automation-solution-support-case-routing}
 
 To get your support case routed correctly to speed up resolution, make sure that you select the right product when you open the case.
 
