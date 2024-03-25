@@ -13,7 +13,7 @@ keywords:
 {{site.data.keyword.attribute-definition-list}}
 
 # Understanding your responsibilities when you use Power Virtual Server for SAP HANA deployable architecture
-{: #responsibilities}
+{: #automation-solution-responsibilities}
 
 Learn about the management responsibilities and terms and conditions that you have when you use the Power Systems Virtual Server for SAP HANA deployable architecture.
 {: shortdesc}
@@ -25,7 +25,7 @@ Learn about the management responsibilities and terms and conditions that you ha
 Review the following section for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use the Power Systems Virtual Server for SAP HANA deployable architecture.
 
 ## Security and regulation compliance
-{: #sap-powervs-automation-security}
+{: #automation-solution-security}
 
 Security and regulation compliance includes tasks such as security controls implementation and compliance certification.
 

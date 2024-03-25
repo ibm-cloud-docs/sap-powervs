@@ -15,7 +15,7 @@ content-type: release-note
 {{site.data.keyword.attribute-definition-list}}
 
 # Release notes for the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture
-{: #sap-powervs-relnotes}
+{: #automation-solution-relnotes}
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
@@ -35,7 +35,7 @@ Version 1.9.0 of the available
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
 ## 7 February 2024
-{: #powervs-vpc-feb7}
+{: #sap-powervs-feb7}
 {: release-note}
 
 Version 1.8.0 of the available
@@ -50,7 +50,7 @@ Version 1.8.0 of the available
 
 
 ## 1 February 2024
-{: #powervs-vpc-feb1}
+{: #sap-powervs-feb1}
 {: release-note}
 
 Version 1.7.0 of the available
@@ -64,7 +64,7 @@ Version 1.7.0 of the available
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
 ## 30 January 2024
-{: #powervs-vpc-jan30}
+{: #sap-powervs-jan30}
 {: release-note}
 
 Version 1.6.1 of the available
@@ -73,7 +73,7 @@ Version 1.6.1 of the available
 
 
 ## 12 January 2024
-{: #powervs-vpc-jan12}
+{: #sap-powervs-jan12}
 {: release-note}
 
 Version 1.6.0 of the available
@@ -89,7 +89,7 @@ Version 1.6.0 of the available
 
 
 ## 08 January 2024
-{: #powervs-vpc-jan08}
+{: #sap-powervs-jan08}
 {: release-note}
 
 Version 1.5.1 of the available
