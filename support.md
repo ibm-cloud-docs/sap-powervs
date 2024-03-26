@@ -19,7 +19,7 @@ subcollection: sap-powervs
 If you experience an issue or have questions when deploying Power Systems Virtual Server for SAP HANA, you can use the following resources before you open a support case.
 {: shortdesc}
 
-- Review the [FAQs](/docs/sap-powervs?topic=sap-powervs-sap-powervs-automation-faqs) in the deployment guide.
+- Review the [FAQs](/docs/sap-powervs?topic=sap-powervs-sap-automation-faqs) in the deployment guide.
 - Review the [troubleshooting documentation](/docs/sap-powervs?topic=sap-powervs-troubleshoot-deploy) to troubleshoot and resolve common issues.
 - ![GitHub icon](../icons/logo-github-16.svg "GitHub icon") Review the [GitHub issues](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/issues){: external} to see whether other users experienced the same problem.
 - ![Slack icon](../icons/logo-slack-16.svg "Slack icon") Ask product experts and the community questions on the [sap-on-power-deployable-architectures](https://ibm-cloudplatform.slack.com/archives/C04RJB1UX53) Slack channel.

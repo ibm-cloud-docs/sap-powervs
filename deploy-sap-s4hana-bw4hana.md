@@ -22,7 +22,7 @@ To deploy a 'SAP S/4HANA or BW/4HANA' variation of Power Virtual Server for SAP 
 
 1.  Make sure that you comply with the prerequisites in the [planning](/docs/sap-powervs?topic=sap-powervs-automation-planning) topic:
     - [Schematics Workspace ID of an exiting {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture](/docs/sap-powervs?topic=sap-powervs-automation-planning#powervs-vpc-landing-zone-da)
-    - [Pre existing SAP Binaries in the COS bucket]({/docs/sap-powervs?topic=sap-powervs-automation-planning##automation-solution-sap-install-packages})
+    - [Pre existing SAP Binaries in the COS bucket](/docs/sap-powervs?topic=sap-powervs-automation-planning#automation-solution-sap-install-packages)
     - [Confirm your {{site.data.keyword.cloud_notm}} settings](/docs/sap-powervs?topic=sap-powervs-automation-planning#vpc-cloud-prereqs)
     - [Set the IAM permissions](/docs/sap-powervs?topic=sap-powervs-automation-planning#powervs-automation-IAM-prereqs)
 1. Go to the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external} and search for the architecture that you're interested in deploying:

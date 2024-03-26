@@ -130,7 +130,7 @@ These steps apply to the SAP S/4HANA or BW/4HANA variation only.
 ## Learn about deployment input parameters
 {: #automation-solutiom-input-parameters}
 
-Ensure that you are familiar with the required input for the deployment execution. See [description for input parameters](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/examples/ibm-catalog/deployable-architectures/sap-ready-to-go/README.md){: external}.
+Ensure that you are familiar with the required input for the deployment execution. See [description for input parameters](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-ready-to-go/README.md){: external}.
 
 ## Other background information
 {: #automation-solution-prereqs-additional}
