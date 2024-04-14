@@ -20,7 +20,7 @@ content-type: release-note
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
-# 14 April 2024
+## 14 April 2024
 {: #sap-powervs-apr14}
 {: release-note}
 
@@ -32,7 +32,7 @@ Version 1.9.0 of the available
     - Upgraded IBM terraform provider version to `1.64.1`
 
 [Warning]{: tag-red}
-: Version 1.9.0 includes backward-incompatible changes for Sao Paulo 01 `tok04`, `osa21`, `lon06` and `syd05`  DC only. 
+: Version 1.9.0 includes backward-incompatible changes for Sao Paulo 01 `tok04`, `osa21`, `lon06` and `syd05` DCs only. 
     - Do not upgrade to this version if previous deployments were made in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
