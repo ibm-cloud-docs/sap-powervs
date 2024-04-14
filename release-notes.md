@@ -26,15 +26,15 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 Version 1.9.0 of the available
 : Version 1.9.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
-    - Upgrade `tok04`,`osa21`, `lon06`  and `syd05` DCs to PER. New deployments in these regions will make use of PER.
+    - Upgrade `tok04`, `osa21`, `lon06` and `syd05` DCs to PER. New deployments in these regions will make use of PER.
     - Improved automatic storage based on memory usage making use of fixed iops and other tiers for data, log and shared disks.
     - Allows user to reapply on failed execution in case of using wrong credentials for COS to download the binaries.
     - Upgraded IBM terraform provider version to `1.64.1`
 
 [Warning]{: tag-red}
-: Version 1.9.0 includes backward-incompatible changes for Sao Paulo 01 `tok04`,`osa21`, `lon06`  and `syd05`  DC only. 
-    - Do not upgrade to this version if previous deployments were made in `tok04`,`osa21`, `lon06`  and `syd05` {{site.data.keyword.powerSys_notm}} zones as doing so will corrupt the landscape because of switch from Cloud connections to PER.
-    - Use this for new deployments in `tok04`,`osa21`, `lon06`  and `syd05` {{site.data.keyword.powerSys_notm}} zones.
+: Version 1.9.0 includes backward-incompatible changes for Sao Paulo 01 `tok04`, `osa21`, `lon06` and `syd05`  DC only. 
+    - Do not upgrade to this version if previous deployments were made in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones as doing so will corrupt the landscape because of switch from Cloud connections to PER.
+    - Use this for new deployments in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
 ## 7 February 2024
