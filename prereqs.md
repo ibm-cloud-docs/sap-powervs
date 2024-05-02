@@ -23,7 +23,7 @@ You must have an existing deployment of [{{site.data.keyword.powerSysFull}} with
 
 OR
 
-If you already have a PowerVS workspace, then you can use the [Import PowerVS workspace](/docs/powervs-vpc?topic=powervs-vpc-powervs-automation-overview#overview-powervs-workspace-import-variant) variation of [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture instead of deploying a new {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture.  The **'import-workspace'** solution creates a schematics workspace by taking pre-existing VPC and PowerVS infrastructure resource details as inputs. 
+If you already have a PowerVS workspace, then you can use the [Import PowerVS workspace](/docs/powervs-vpc?topic=powervs-vpc-automation-solution-overview#overview-powervs-workspace-import-variant) variation of [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture instead of deploying a new {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture.  The **'import-workspace'** solution creates a schematics workspace by taking pre-existing VPC and PowerVS infrastructure resource details as inputs. 
 
 The ID of this schematics workspace will be the pre-requisite workspace id required by 'Power Virtual Server for SAP HANA' to create and configure the PowerVS instances for SAP on top of the existing infrastructure. 
 
@@ -99,7 +99,7 @@ Define hostnames for all the SAP services that you will deploy in the landscape.
 
 Determine the size parameters for each SAP workload that you plan to deploy. The most important parameters are memory size (especially for SAP HANA) and the number of SAPs. Most of the other configurations can be derived from these two key metrics.
 
-For more information, see [Sizing process for SAP Systems](/docs/sap?topic=sap-sizing) and see [SAP Sizing](https://service.sap.com/quicksizer).
+For more information, see [Sizing process for SAP Systems](/docs/sap?topic=sap-sizing) and see [SAP Sizing](https://www.sap.com/about/benchmark/sizing.html).
 
 For deployment of each SAP system, you must be aware about how many SAP NetWeaver instances you plan to deploy. Decide whether you plan to use a separate PowerVS instance for hosting SAP shared files.
 
