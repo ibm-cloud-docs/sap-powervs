@@ -19,7 +19,7 @@ This deployment guide covers prerequisite for {{site.data.keyword.powerSysFull}}
 ## {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture
 {: #powervs-vpc-landing-zone-da}
 
-You must have an existing deployment of [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. This can be deployed from IBM catalog tile. Instructions are provided (here)[/docs/powervs-vpc?topic=powervs-vpc-powervs-automation-overview].
+You must have an existing deployment of [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. This can be deployed from IBM catalog tile. Instructions are provided [here](/docs/powervs-vpc?topic=powervs-vpc-automation-solution-overview).
 
 OR
 
