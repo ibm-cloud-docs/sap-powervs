@@ -39,7 +39,7 @@ To deploy a 'SAP ready PowerVS' variation of Power Virtual Server for SAP HANA d
     1.  Save the configuration.
     1.  Click **Validate**. Validation takes a few minutes
 
-        {{site.data.keyword.cloud_notm}} projects runs a Code Risk Analyzer scan that includes a [supported set of {{site.data.keyword.compliance_short}} rules](/docs/code-risk-analyzer-cli-plugin?topic=code-risk-analyzer-cli-plugin-cra-cli-plugin#terraform-scc-goals). Controls that are part of the deployable architecture and that are also supported by {{site.data.keyword.cloud_notm}} projects are checked. Any extra controls that are not included in the list of supported {{site.data.keyword.compliance_short}} rules are not checked when you validate the configuration.
+        {{site.data.keyword.cloud_notm}} projects runs a Code Risk Analyzer scan that includes a [supported set of {{site.data.keyword.compliance_short}} rules](/docs/code-risk-analyzer-cli-plugin?topic=code-risk-analyzer-cli-plugin-cra-cli-plugin#terraform-scc-rules). Controls that are part of the deployable architecture and that are also supported by {{site.data.keyword.cloud_notm}} projects are checked. Any extra controls that are not included in the list of supported {{site.data.keyword.compliance_short}} rules are not checked when you validate the configuration.
 
         If the validation fails because of the Code Risk Analyzer scan, you can [troubleshoot the failure](/docs/secure-infrastructure-vpc?topic=secure-infrastructure-vpc-ts-na-failures).
 1.  Deploy the configuration:
