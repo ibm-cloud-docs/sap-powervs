@@ -26,7 +26,8 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 2.0.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
-    - Does not support upgrade process from previous version 1.x.x to 2.0.0
+    - Does not support upgrade process from previous version 1.x.x to 2.0.0.
+    - Requires {{site.data.keyword.powerSysFull}} with VPC landing zone version `>5.0.0`.
     - New Central Ansible node on landing zone.
     - Switch ansible playbook execution from localhost to target host.
     - Switched from community `sap_swpm` role to [RHEL linux system SAP roles](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux_for_sap_solutions/8/html-single/red_hat_enterprise_linux_system_roles_for_sap/index)
