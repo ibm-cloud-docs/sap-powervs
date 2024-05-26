@@ -36,25 +36,28 @@ toc:
         topics:
           - navtitle: Dependencies
             topic: dependencies.md
-          - navtitle: Power Virtual Server with VPC landing zone preset
-            topic: vpc-presets.md
           - navtitle: Before you begin deploying
-            topic: prereqs.md
+            topic: planning.md
 
     - navgroup:
         id: deploy
         topics:
-          - navtitle: Deploying the SAP Ready PowerVS variation
-            topic: deploy-sap-ready-powervs.md
+          - navtitle: Deploying a Power Virtual Server for SAP HANA deployable architecture
+            topic: deploying.md
 
-          - navtitle: Deploying the SAP S/4HANA or BW/4HANA variation
-            topic: deploy-sap-s4hana-bw4hana.md
+    - navgroup:
+        id: tutorial
+        topics:
+          - navtitle: Connect by using a client-to-site VPN
+            topic: connect-client-vpn.md
+          - navtitle: Connect using Floating IP
+            topic: connect-jump-ssh.md
 
     - navgroup:
         id: reference
         topics:
           - navtitle: Responsibilities
-            topic: responsibilities.md
+            topic: shared-responsibilities.md
 
     - navgroup:
         id: help

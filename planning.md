@@ -11,7 +11,7 @@ subcollection: sap-powervs
 {{site.data.keyword.attribute-definition-list}}
 
 # Before you begin deploying the Power Virtual Server for SAP HANA deployable architecture
-{: #automation-planning}
+{: #plan}
 
 This deployment guide covers prerequisite for {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture.
 {: shortdesc}
@@ -30,9 +30,9 @@ The ID of this schematics workspace will be the pre-requisite workspace id requi
 Check the pre-requisites for this variation [here](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure/tree/main/solutions/import-workspace#pre-requisites).
 
 ## Confirm your {{site.data.keyword.cloud_notm}} settings
-{: #vpc-cloud-prereqs}
+{: #sap-automation-cloud-prereqs}
 
-Complete the following steps before you deploy the {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture.
+Complete the following steps before you deploy the {{site.data.keyword.powerSys_notm}} with VPC landing zone deployable architecture.
 
 1.  Confirm or set up an {{site.data.keyword.cloud_notm}} account:
 
@@ -41,26 +41,29 @@ Complete the following steps before you deploy the {{site.data.keyword.powerSysF
     - If you don't have an {{site.data.keyword.cloud_notm}} account, [create one](/docs/account?topic=account-account-getting-started).
     - If you have a Trial or Lite account, [upgrade your account](/docs/account?topic=account-upgrading-account).
 1.  Configure your {{site.data.keyword.cloud_notm}} account:
-    1.  Log in to [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com){: external} with the {{site.data.keyword.ibmid}} you used to set up the account. This {{site.data.keyword.ibmid}} user is the account owner and has full IAM access.
+    1.  Log in to [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com) with the {{site.data.keyword.ibmid}} you used to set up the account. This {{site.data.keyword.ibmid}} user is the account owner and has full IAM access.
     1.  [Complete the company profile](/docs/account?topic=account-contact-info) and contact information for the account. This profile is required to stay in compliance with {{site.data.keyword.cloud_notm}} Financial Services profile.
     1.  [Enable the Financial Services Validated option](/docs/account?topic=account-enabling-fs-validated) for your account.
     1.  Enable virtual routing and forwarding (VRF) and service endpoints by creating a support case. Follow the instructions in [enabling VRF and service endpoints](/docs/account?topic=account-vrf-service-endpoint&interface=ui#vrf).
 
 ## Set the IAM permissions
-{: #powervs-automation-IAM-prereqs}
+{: #sap-automation-IAM-prereqs}
 
-Set up account access ({{site.data.keyword.iamshort}} (IAM)):
-- Create an {{site.data.keyword.cloud_notm}} [API key](/docs/account?topic=account-userapikey&interface=ui#create_user_key). The user who owns this key must have the Administrator role.
+1.  Set up account access ({{site.data.keyword.iamshort}} (IAM)):
+    1.  Create an {{site.data.keyword.cloud_notm}} [API key](/docs/account?topic=account-userapikey&interface=terraform#create_user_key-api-terra). The user who owns this key must have the Administrator role.
 
-- For compliance with {{site.data.keyword.framework-fs_notm}}, users in your account are required to use [multi-factor authentication (MFA)](/docs/account?topic=account-account-getting-started#account-gs-mfa).
-- [Set up access groups](/docs/account?topic=account-access-getstarted#create-access-group).
+        Service ID API keys are not supported for the Red Hat OpenShift Container Platform on VPC landing zone deployable architecture.
+        {: tip}
 
-    User access to {{site.data.keyword.cloud_notm}} resources is controlled by using the access policies that are assigned to access groups. For {{site.data.keyword.cloud_notm}} Financial Services validation, do not assign direct IAM access to any {{site.data.keyword.cloud_notm}} resources.
+    1.  For compliance with {{site.data.keyword.framework-fs_notm}}: Require users in your account to use [multifactor authentication (MFA)](/docs/account?topic=account-account-getting-started#account-gs-mfa).
+    1.  [Set up access groups](/docs/account?topic=account-account-getting-started#account-gs-accessgroups).
 
-    Select **All Identity and Access enabled services** when you assign access to the group.
+        User access to {{site.data.keyword.cloud_notm}} resources is controlled by using the access policies that are assigned to access groups. For {{site.data.keyword.cloud_notm}} Financial Services validation, do not assign direct IAM access to any {{site.data.keyword.cloud_notm}} resources.
+
+        Select **All Identity and Access enabled services** when you assign access to the group.
 
 ### Verify access roles
-{: #vpc-access-roles}
+{: #sap-automation-access-roles}
 
 IAM access roles are required to install this deployable architecture and create all the required elements.
 
@@ -79,15 +82,13 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 You can use {{site.data.keyword.cloud_notm}} projects as a deployment option. Projects are designed with infrastructure as code and compliance in mind to help ensure that your projects are managed, secure, and always compliant. For more information, see [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
 
-You need the following access to create a project and create project tooling resources within the account. Make sure that you have the following access:
+You need the following access to create a project and create project tooling resources within the account. Make sure you have the following access:
 
-- The Editor role on the Projects service
+- The Editor role on the Projects service.
 - The Editor and Manager role on the {{site.data.keyword.bpshort}} service
 - The Viewer role on the resource group for the project
 
 For more information, see [Assigning users access to projects](/docs/secure-enterprise?topic=secure-enterprise-access-project).
-
-For more information about configuring API access in {{site.data.keyword.cos_short}}, see the [Getting started with IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and [Service credentials](/docs/cloud-object-storage?topic=cloud-object-storage-service-credentials) documentation.
 
 ## Define hostnames
 {: #automation-solution-define-hostnames}
@@ -128,7 +129,7 @@ These steps apply to the SAP S/4HANA or BW/4HANA variation only.
     - {{site.data.keyword.cos_short}} HMAC secret access key
 
 ## Learn about deployment input parameters
-{: #automation-solutiom-input-parameters}
+{: #automation-solution-input-parameters}
 
 Ensure that you are familiar with the required input for the deployment execution. See [description for input parameters](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-ready-to-go/README.md){: external}.
 
