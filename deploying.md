@@ -56,30 +56,3 @@ To deploy a Power Virtual Server with VPC landing zone deployable architecture t
 
 During the validation and deployment process, monitor the [needs attention items](/docs/secure-enterprise?topic=secure-enterprise-needs-attention-projects). The widget reflects any issue that occurs in your configurations.
 {: remember}
-
-## Next steps
-{: #deploy-next-steps}
-
-You can connect to the landscape by using following SSH command:
-
-- To connect to the HANA instance:
-
-    ```sh
-    ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand="ssh -W %h:%p root@<access_host_or_ip>" root@<powervs_hana_instance_management_ip>
-    ```
-
-- To connect to the NetWeaver instance:
-    ```sh
-    ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand="ssh -W %h:%p root@<access_host_or_ip>" root@<powervs_netweaver_instance_management_ip>
-    ```
-
-- To connect to the HANA instance:
-
-    ```sh
-    ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand="ssh -W %h:%p root@<access_host_or_ip>" root@<powervs_hana_instance_management_ip>
-    ```
-
-- To connect to the NetWeaver instance:
-    ```sh
-    ssh -A -o ServerAliveInterval=60 -o ServerAliveCountMax=600 -o ProxyCommand="ssh -W %h:%p root@<access_host_or_ip>" root@<powervs_netweaver_instance_management_ip>
-    ```
