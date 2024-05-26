@@ -31,6 +31,7 @@ Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Switch ansible playbook execution from localhost to target host.
     - Switched from community sap_swpm role to [RHEL linux system SAP roles](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux_for_sap_solutions/8/html-single/red_hat_enterprise_linux_system_roles_for_sap/index)
     - Removed cloud connection support.
+    - Supports RHEL8.8/9.2 SAP FLS(Full linux subscription) images.
 
 [Warning]{: tag-red}
 : Version 2.0.0 includes backward-incompatible changes.
