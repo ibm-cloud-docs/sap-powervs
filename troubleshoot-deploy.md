@@ -31,7 +31,7 @@ As part of the development of the deployable architecture we verify the workflow
 If the deployment process does not finish successfully, look at the {{site.data.keyword.bplong_notm}} logs. These logs typically provide the information about the component that causes the issue.
 {: tsResolve}
 
-- Ensure that all prerequisites are applied according to the [planning guide](/docs/sap-powervs?topic=sap-powervs-automation-planning)
+- Ensure that all prerequisites are applied according to the [planning guide](/docs/sap-powervs?topic=sap-powervs-plan)
 - Verify that the input parameters for the SAP ready PowerVS variation are correct. The parameters are described in this [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-ready-to-go/README.md){: external}.
 - Verify that the input parameters for the SAP S/4HANA or BW/4HANA variation are correct. The parameters are described in this [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-s4hana-bw4hana/README.md){: external}.
 
