@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-30"
+lastupdated: "2024-05-27"
 keywords:
 subcollection: sap-powervs
 
@@ -25,8 +25,7 @@ To deploy a Power Virtual Server with VPC landing zone deployable architecture t
     - Verify access roles.
     - [Schematics Workspace ID of an exiting {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture](/docs/sap-powervs?topic=sap-powervs-plan#powervs-vpc-landing-zone-da)
 1.  Go to the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external} and search for the architecture that you're interested in deploying:
-    - Power Virtual Server with VPC landing zone
-    - PowerVS Instance with VPC landing zone
+    - Power Virtual Server for SAP HANA
 1.  Click the tile for the deployable architecture to open the details.
 1.  Select the latest product version in the Architecture section.
 1.  Select a variation, if more than one is available.

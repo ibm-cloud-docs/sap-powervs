@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2023-07-10"
+lastupdated: "2024-05-27"
 
 subcollection: sap-powervs
 
