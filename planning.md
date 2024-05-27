@@ -32,7 +32,7 @@ Check the pre-requisites for this variation [here](https://github.com/terraform-
 ## Confirm your {{site.data.keyword.cloud_notm}} settings
 {: #sap-automation-cloud-prereqs}
 
-Complete the following steps before you deploy the {{site.data.keyword.powerSys_notm}} with VPC landing zone deployable architecture.
+Complete the following steps before you deploy the {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture.
 
 1.  Confirm or set up an {{site.data.keyword.cloud_notm}} account:
 
@@ -51,9 +51,6 @@ Complete the following steps before you deploy the {{site.data.keyword.powerSys_
 
 1.  Set up account access ({{site.data.keyword.iamshort}} (IAM)):
     1.  Create an {{site.data.keyword.cloud_notm}} [API key](/docs/account?topic=account-userapikey&interface=terraform#create_user_key-api-terra). The user who owns this key must have the Administrator role.
-
-        Service ID API keys are not supported for the Red Hat OpenShift Container Platform on VPC landing zone deployable architecture.
-        {: tip}
 
     1.  For compliance with {{site.data.keyword.framework-fs_notm}}: Require users in your account to use [multifactor authentication (MFA)](/docs/account?topic=account-account-getting-started#account-gs-mfa).
     1.  [Set up access groups](/docs/account?topic=account-account-getting-started#account-gs-accessgroups).

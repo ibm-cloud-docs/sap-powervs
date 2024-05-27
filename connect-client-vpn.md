@@ -29,7 +29,7 @@ This tutorial dives into the fastest option to get up and running with a [client
 {: #solution-connect-client-vpn-openvpn}
 {: step}
 
-After the VPN server cloud resources which were deployed during the PowerVS with VPC landing zone architecture, set up the OpenVPN client on devices that will access your landing zone.
+After the VPN server cloud resources which were deployed during the PowerVS with VPC landing zone architecture, set up the OpenVPN client on devices that will access your SAP HANA PowerVS instances.
 
 1.  Download the OpenVPN profile from the VPN server
 

@@ -18,7 +18,7 @@ You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm
 ## Deploying with {{site.data.keyword.cloud_notm}} projects
 {: #deploy-cloud}
 
-To deploy a Power Virtual Server with VPC landing zone deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, follow these steps:
+To deploy a Power Virtual Server for SAP HANA deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, follow these steps:
 
 1.  Make sure that you comply with the prerequisites in the [planning](/docs/sap-powervs?topic=sap-powervs-plan) topic:
     - Have an {{site.data.keyword.cloud_notm}} API key.
