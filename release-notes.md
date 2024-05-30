@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-27"
+lastupdated: "2024-05-31"
 
 keywords:
 
@@ -19,6 +19,16 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## 31 May 2024
+{: #sap-powervs-may31}
+{: release-note}
+
+Version 2.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 2.0.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Please refer release notes v2.0.0
+    - Upgraded ansible collection `ibm.power_linux_sap` version to `v2.1.1` that fixes SLES OS initialization.
+
 
 ## 26 May 2024
 {: #sap-powervs-may26}
