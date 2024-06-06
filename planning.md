@@ -138,5 +138,3 @@ Ensure that you are familiar with the required input for the deployment executio
 - [Deployable architecture code](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap){: external}
 - Main dependencies:
     - [https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure){: external}
-    - [https://galaxy.ansible.com/ibm/power_linux_sap](https://galaxy.ansible.com/ibm/power_linux_sap){: external}
-    - [https://galaxy.ansible.com/community/sap_install](https://galaxy.ansible.com/community/sap_install){: external}
