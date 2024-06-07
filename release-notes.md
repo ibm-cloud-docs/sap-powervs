@@ -20,6 +20,15 @@ content-type: release-note
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
+## 07 June 2024
+{: #sap-powervs-jun07}
+{: release-note}
+
+Version 2.1.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 2.1.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Supports `S/4HANA 2023`
+    - Storage requirements for HANA DATA and log filesystem has been updated based on SAP release notes in March 2024. Now the storage is calculated with a factor of `1.5 x Memory` instead of `1.2 x Memory`
+
 ## 31 May 2024
 {: #sap-powervs-may31}
 {: release-note}
