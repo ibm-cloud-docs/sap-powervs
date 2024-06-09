@@ -20,7 +20,10 @@ content-type: release-note
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
-## 07 June 2024
+## June 2024
+{: #sap-powervs-2024-06}
+
+### 07 June 2024
 {: #sap-powervs-jun07}
 {: release-note}
 
@@ -29,7 +32,10 @@ Version 2.1.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Supports `S/4HANA 2023`
     - Storage requirements for HANA DATA and log filesystem has been updated based on SAP release notes in March 2024. Now the storage is calculated with a factor of `1.5 x Memory` instead of `1.2 x Memory`
 
-## 31 May 2024
+## May 2024
+{: #sap-powervs-2024-05}
+
+### 31 May 2024
 {: #sap-powervs-may31}
 {: release-note}
 
@@ -39,7 +45,7 @@ Version 2.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Upgraded ansible collection `ibm.power_linux_sap` version to `v2.1.1` that fixes SLES OS initialization.
 
 
-## 26 May 2024
+### 26 May 2024
 {: #sap-powervs-may26}
 {: release-note}
 
@@ -59,7 +65,7 @@ Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Do not upgrade to this version if there were previous deployments.
     - Use this for new deployments only.
 
-## 11 May 2024
+### 11 May 2024
 {: #sap-powervs-may11}
 {: release-note}
 
@@ -74,7 +80,7 @@ Version 1.11.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword
     - Use this for new deployments in `tor01` and `us-south` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
-## 2 May 2024
+### 2 May 2024
 {: #sap-powervs-may2}
 {: release-note}
 
@@ -88,7 +94,10 @@ Version 1.10.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword
     - Use this for new deployments in Sydney 04 `syd04` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
-## 14 April 2024
+## April 2024
+{: #sap-powervs-2024-04}
+
+### 14 April 2024
 {: #sap-powervs-apr14}
 {: release-note}
 
@@ -105,7 +114,10 @@ Version 1.9.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Use this for new deployments in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
-## 7 February 2024
+## February 2024
+{: #sap-powervs-2024-02}
+
+### 7 February 2024
 {: #sap-powervs-feb7}
 {: release-note}
 
@@ -120,7 +132,7 @@ Version 1.8.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
 
-## 1 February 2024
+### 1 February 2024
 {: #sap-powervs-feb1}
 {: release-note}
 
@@ -134,7 +146,10 @@ Version 1.7.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Use this for new deployments in Dallas 12 `dal12` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
-## 30 January 2024
+## January 2024
+{:  #sap-powervs-2024-01}
+
+### 30 January 2024
 {: #sap-powervs-jan30}
 {: release-note}
 
@@ -143,7 +158,7 @@ Version 1.6.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Fixes SAP SWPM hdbuserstore config by setting correct port for proper communication between Netweaver instance and HANA DB host. This fix is applicable for `S/4HANA and BW/4HANA solution` variation only.
 
 
-## 12 January 2024
+### 12 January 2024
 {: #sap-powervs-jan12}
 {: release-note}
 
@@ -159,7 +174,7 @@ Version 1.6.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
 
-## 08 January 2024
+### 08 January 2024
 {: #sap-powervs-jan08}
 {: release-note}
 
@@ -167,8 +182,10 @@ Version 1.5.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 :   Version 1.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade terraform IBM provider version to `1.61.0`
 
+## November 2023
+{:  #sap-powervs-2023-11}
 
-## 22 November 2023
+### 22 November 2023
 {: #sap-powervs-nov22}
 {: release-note}
 
@@ -178,7 +195,7 @@ Version 1.4.0 available
     - Support `WDC06` data center which is [PER enabled](/docs/power-iaas?topic=power-iaas-per).
 
 
-## 10 November 2023
+### 10 November 2023
 {: #sap-powervs-nov10}
 {: release-note}
 
@@ -188,7 +205,7 @@ Version 1.3.0 available
     - New variation **'SAP S/4HANA or BW/4HANA'** solution is now supported and can be consumed from the deployable architecture.
 
 
-## 09 November 2023
+### 09 November 2023
 {: #sap-powervs-nov09}
 {: release-note}
 
@@ -198,7 +215,7 @@ Version 1.2.1 available
     - Fixes missing readme file required for OS registration in few DCs on HANA instance which errors rarely.
 
 
-## 03 November 2023
+### 03 November 2023
 {: #sap-powervs-nov03}
 {: release-note}
 
@@ -209,8 +226,10 @@ Version 1.2.0 available
     - Refactor modules.
     - Cores, memory and processor type can now be set for sharefs instance.
 
+## September 2023
+{: #sap-powervs-2023-09}
 
-## 06 September 2023
+### 06 September 2023
 {: #sap-powervs-sep06}
 {: release-note}
 
@@ -221,11 +240,3 @@ Version 1.1.0 available
     - Add nfs export for sharefs PowerVS instance
     - Support RHEL8.6 and SLES15.4 SAP images
 
-
-## 30 April 2023
-{: #sap-powervs-apr30}
-{: release-note}
-
-Version 1.0.0 available
-:   Version 1.0.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
-    - Introduced the solution. You can use the deployable architecture to create a {{site.data.keyword.powerSys_notm}} for SAP HANA landscape.
