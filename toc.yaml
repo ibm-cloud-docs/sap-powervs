@@ -26,9 +26,9 @@ toc:
     - navgroup:
         id: architecture
         topics:
-          - navtitle: SAP ready PowerVS variation
+          - navtitle: SAP ready PowerVS
             include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
-          - navtitle: SAP S/4HANA or BW/4HANA variation
+          - navtitle: SAP S/4HANA or BW/4HANA
             include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-s4hana-bw4hana/deploy-arch-ibm-pvs-sap-s4hana-bw4hana.md
 
     - navgroup:
@@ -42,7 +42,7 @@ toc:
     - navgroup:
         id: deploy
         topics:
-          - navtitle: Deploying a Power Virtual Server for SAP HANA deployable architecture
+          - navtitle: Deploy using Projects
             topic: deploying.md
 
     - navgroup:
