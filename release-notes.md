@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-31"
+lastupdated: "2024-06-10"
 
 keywords:
 
@@ -22,6 +22,14 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 ## June 2024
 {: #sap-powervs-2024-06}
+
+### 10 June 2024
+{: #sap-powervs-jun10}
+{: release-note}
+
+Version 2.1.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 2.1.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Fixes HANA AFL additional installation by installing missing `glibc-langpack-en` package.
 
 ### 07 June 2024
 {: #sap-powervs-jun07}
