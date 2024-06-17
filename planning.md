@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-05-27"
+lastupdated: "2024-06-17"
 keywords:
 subcollection: sap-powervs
 
@@ -135,11 +135,13 @@ These steps apply to the SAP S/4HANA or BW/4HANA variation only.
 
 Ensure that you are familiar with the required input for the deployment execution. See [description for input parameters](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-ready-to-go/README.md){: external}.
 
-## Other background information
+## Additional background information
 {: #automation-solution-prereqs-additional}
 
 - [IBM Power Systems Virtual Servers service documentation](/docs/power-iaas)
 - [SAP on IBM Cloud documentation](/docs/sap)
 - [Deployable architecture code](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap){: external}
 - Main dependencies:
-    - [https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure){: external}
+    - [Terraform IBM Module - PowerVS Infrastructure](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure){: external}
+    - [Terraform IBM Module - PowerVS Instance](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-instance){: external}
+    - [IBM Power Linux SAP ansible galaxy role](https://galaxy.ansible.com/ibm/power_linux_sap){: external}
