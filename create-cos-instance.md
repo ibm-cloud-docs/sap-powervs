@@ -16,7 +16,7 @@ completion-time: 20 mins
 {{site.data.keyword.attribute-definition-list}}
 
 # Create a COS instance with SAP installation files
-{: #create-cos-instance}
+{: #solution-create-cos-instance}
 {: toc-content-type="tutorial"}
 {: toc-services="cos"}
 {: toc-completion-time="20mins"}
@@ -26,13 +26,13 @@ This tutorial describes how to setup a [Cloud Object Storage (COS) instance](/do
 {: shortdesc}
 
 ## When is this required?
-{: #create-cos-instance}
+{: #solution-create-cos-instance-when}
 
 The [Power Virtual Server with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) without using a stack solution, check the [Prerequisites](#prerequisites) and skip ahead to [Upload SAP installation binaries](#upload-sap-installation-binaries).
 If you're using a stack solution, you need to create your own storage bucket to provide the installation files. In that case, follow every step in this tutorial.
 
 ## Prerequisites
-{: #create-cos-instance}
+{: #solution-create-cos-instance-prerequisites}
 
 ### SAP Installation Binaries
 You need to obtain the HANA and Netweaver installation binaries from SAP. The required installation files depend on the version you're trying to install. To identify which files you need, check out the [PowerVS SAP repo](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/tree/main/solutions/ibm-catalog/sap-s4hana-bw4hana#2-sap-binaries-required-for-installation-and-folder-structure-in-ibm-cloud-object-storage-bucket) and the [sap_hana_install community role](https://github.com/sap-linuxlab/community.sap_install/tree/main/roles/sap_hana_install#sap-hana-software-installation-sar-files).
@@ -65,7 +65,7 @@ The easiest way to install AWS CLI is via `pip install awscli`.
 For more information about using the AWS CLI with the {{site.data.keyword.cloud_notm}} Object Storage, check out [Using the AWS CLI](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-aws-cli).
 
 ## Create a COS Service Instance with a Storage Bucket
-{: #create-cos-instance}
+{: #solution-create-cos-instance-creation}
 {: step}
 
 Before you can create a storage bucket to store the SAP installation files, you need to create a COS service instance. The service instance is where your storage buckets reside.
@@ -170,7 +170,7 @@ Before you can create a storage bucket to store the SAP installation files, you 
   1.  You can now obtain and manage this access credential in the IAM console Add how to get there here
 
 ## Upload SAP installation binaries
-{: #connect-client-vpn-certs}
+{: #solution-create-cos-instance-upload-binaries}
 {: step}
 
 1.  Place the SAP installation binaries in the same folder structure you'd like in your bucket.
@@ -218,5 +218,3 @@ Check this [documentation](https://github.com/terraform-ibm-modules/terraform-ib
 
 During deployment, you have to tell Power Virtual Server for SAP HANA where to find the installation files through the ibmcloud_cos_configuration variable.
 {: tip}
-
-{: screen}
