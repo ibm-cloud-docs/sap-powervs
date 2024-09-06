@@ -9,7 +9,7 @@ subcollection: sap-powervs
 content-type: tutorial
 services: Cloud Object Storage (COS)
 account-plan: paid
-completion-time: 20 mins
+completion-time: 20 min
 
 ---
 
@@ -19,16 +19,16 @@ completion-time: 20 mins
 {: #solution-create-cos-instance}
 {: toc-content-type="tutorial"}
 {: toc-services="Cloud Object Storage (COS)"}
-{: toc-completion-time="20 mins"}
+{: toc-completion-time="20 min"}
 
-[Power Systems Virtual Server for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) requires a COS storage bucket with the SAP HANA installation files.
+[Power Systems Virtual Server for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global) requires a COS storage bucket with the SAP HANA installation files.
 This tutorial describes how to setup a [Cloud Object Storage (COS) instance](/docs/cloud-object-storage?topic=cloud-object-storage-about-cloud-object-storage) and place the SAP installation files inside. For more information about Cloud object storage, click [here](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 {: shortdesc}
 
 ## When is this required?
 {: #solution-create-cos-instance-when}
 
-The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) without using a stack solution, check the [Prerequisites](#prerequisites) and skip ahead to [Upload SAP installation binaries](#upload-sap-installation-binaries).
+The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](#prerequisites) and skip ahead to [Upload SAP installation binaries](#upload-sap-installation-binaries).
 If you're using a stack solution, you need to create your own storage bucket to provide the installation files. In that case, follow every step in this tutorial.
 
 ## Prerequisites
