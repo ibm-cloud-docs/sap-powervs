@@ -2,12 +2,12 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-04"
+lastupdated: "2024-09-06"
 
 keywords:
 subcollection: sap-powervs
 content-type: tutorial
-services: Cloud Object Storage (COS)
+services: cloud-object-storage
 account-plan: paid
 completion-time: 20m
 
@@ -18,7 +18,7 @@ completion-time: 20m
 # Create a COS instance with SAP installation files
 {: #solution-create-cos-instance}
 {: toc-content-type="tutorial"}
-{: toc-services="Cloud Object Storage (COS)"}
+{: toc-services="cloud-object-storage"}
 {: toc-completion-time="20m"}
 
 [Power Systems Virtual Server for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global) requires a COS storage bucket with the SAP HANA installation files.
