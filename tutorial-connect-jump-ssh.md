@@ -6,7 +6,7 @@ lastupdated: "2024-09-23"
 subcollection: sap-powervs
 content-type: tutorial
 services: ssh
-completion-time: 10mins
+completion-time: 10m
 keywords:
 
 ---
@@ -17,19 +17,21 @@ keywords:
 {: #solution-ssh}
 {: toc-content-type="tutorial"}
 {: toc-services="ssh"}
-{: toc-completion-time="10mins"}
+{: toc-completion-time="10m"}
 
 After the deployment has been completed you can connect to the landscape by using ssh proxy command to connect to the private ip of PowerVS instances over floating IP of jump box.
 {: shortdesc}
 
 ## Before you begin
 {: #solution-ssh-prereqs}
+{: step}
 
 1. Make sure you have deployed the [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture landscape by entering a value in the `external_access_ip` field. Only this IP will be allowed to login to the environment as it is allowed in the management-sg group.
 1. Review the outputs from the deployable architecture.
 
 ## Connect to the landscape
 {: #solution-ssh-connect}
+{: step}
 
 1. Make sure you have the right private SSH key.
 1. Use the following SSH commands to access the hosts.
