@@ -2,14 +2,13 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-05-26"
-
-keywords:
+lastupdated: "2024-09-23"
 subcollection: sap-powervs
 content-type: tutorial
 services: vpc, secrets-manager, dl, schematics
 account-plan: paid
 completion-time: 1h
+keywords:
 
 ---
 
