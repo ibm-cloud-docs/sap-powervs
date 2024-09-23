@@ -152,7 +152,7 @@ Version 1.7.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
 
 ## January 2024
-{:  #sap-powervs-2024-01}
+{: #sap-powervs-2024-01}
 
 ### 30 January 2024
 {: #sap-powervs-jan30}
@@ -188,7 +188,7 @@ Version 1.5.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Upgrade terraform IBM provider version to `1.61.0`
 
 ## November 2023
-{:  #sap-powervs-2023-11}
+{: #sap-powervs-2023-11}
 
 ### 22 November 2023
 {: #sap-powervs-nov22}
@@ -244,4 +244,3 @@ Version 1.1.0 available
     - Update OS registration scripts to support PER and NON PER DC
     - Add nfs export for sharefs PowerVS instance
     - Support RHEL8.6 and SLES15.4 SAP images
-
