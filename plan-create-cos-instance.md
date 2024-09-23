@@ -2,14 +2,13 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-06"
-
-keywords:
+lastupdated: "2024-09-23"
 subcollection: sap-powervs
 content-type: tutorial
 services: cloud-object-storage
 account-plan: paid
 completion-time: 20m
+keywords: cos, binaries, s4hana
 
 ---
 

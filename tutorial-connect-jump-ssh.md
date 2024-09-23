@@ -2,13 +2,12 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-05-26"
-
-keywords:
+lastupdated: "2024-09-23"
 subcollection: sap-powervs
 content-type: tutorial
 services: ssh
 completion-time: 10 mins
+keywords:
 
 ---
 

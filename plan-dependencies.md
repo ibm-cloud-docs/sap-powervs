@@ -1,12 +1,10 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-05-27"
-
-keywords:
-
+  years: 2023, 2024
+lastupdated: "2024-09-23"
 subcollection: sap-powervs
+keywords:
 
 ---
 
