@@ -6,7 +6,7 @@ lastupdated: "2024-09-23"
 subcollection: sap-powervs
 content-type: tutorial
 services: ssh
-completion-time: 10 mins
+completion-time: 10mins
 keywords:
 
 ---
@@ -15,6 +15,9 @@ keywords:
 
 # Connect to Power Virtual Server Instances using floating IP
 {: #solution-ssh}
+{: toc-content-type="tutorial"}
+{: toc-services="ssh"}
+{: toc-completion-time="10mins"}
 
 After the deployment has been completed you can connect to the landscape by using ssh proxy command to connect to the private ip of PowerVS instances over floating IP of jump box.
 {: shortdesc}
