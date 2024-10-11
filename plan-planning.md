@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-11"
 subcollection: sap-powervs
 keywords:
 
@@ -123,12 +123,14 @@ You must have an existing IBM Cloud Object Storage instance.
 
 These steps apply to the SAP S/4HANA or BW/4HANA variation only.
 
-1. Within the instance, an {{site.data.keyword.cos_short}} bucket that contains the SAP Software installation media files is required. Follow the folder structure as defined in the [readme file](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-s4hana-bw4hana/README.md#2-sap-binaries-required-for-installation-and-folder-structure-in-ibm-cloud-object-storage-bucket){: external}.
+1. Within the instance, an {{site.data.keyword.cos_short}} bucket that contains the SAP Software installation media files is required.
 1. To configure access to these software packages from a running virtual server instance, you need the following information:
     - {{site.data.keyword.cos_short}} endpoint
     - {{site.data.keyword.cos_short}} bucket name
     - {{site.data.keyword.cos_short}} HMAC access key
     - {{site.data.keyword.cos_short}} HMAC secret access key
+
+Follow the [tutorial here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance) which details the steps to create a Cloud Object Storage (COS) instance and organizing the SAP binaries in correct structure.
 
 ## Learn about deployment input parameters
 {: #automation-solution-input-parameters}
