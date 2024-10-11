@@ -90,7 +90,7 @@ Before you can create a storage bucket to store the SAP installation files, you 
 
     - By using the {{site.data.keyword.cloud_notm}} CLI:
 
-      Make sure you followed the steps in [IBMCloud CLI Setup](https://cloud.ibm.com/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prereq-ibmcloud-cli) and are logged in.
+      Make sure you followed the steps in [IBMCloud CLI Setup](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prereq-ibmcloud-cli) and are logged in.
       You will need to select a payment plan. Unless you have a custom plan, typical options are `standard` or `lite`. For more information, refer [here](/docs/cloud-object-storage?topic=cloud-object-storage-provision).
 
       ```sh
