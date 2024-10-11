@@ -68,6 +68,8 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 -  If **sharefs instance is enabled**, then all filesystems provisioned for sharefs instance will be **NFS exported and mounted** on all NetWeaver Instances.
 -  **Do not specify** a filesystem `/sapmnt` explicitly for NetWeaver instance as, it is created internally when sharefs instance is not enabled.
 
+
+
 ## Variation - SAP S/4HANA or BW/4HANA
 {: #overview-sap-s4hana-bw4hana}
 
@@ -82,7 +84,7 @@ The resulting SAP landscape leverages the services such as Activity Tracker, Clo
 ### Summary Outcome
 {: #overview-sap-s4hana-bw4hana-summary-outcome}
 
-SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
+SAP S/4HANA or SAP BW/4HANA installation configuration to IBM PowerVS hosts.
 
 ### Summary Tasks
 {: #overview-sap-s4hana-bw4hana-summary-tasks}
@@ -104,7 +106,6 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
 1.  **It is required to have an existing IBM Cloud Object Storage (COS) instance**. Within the instance, an Object Storage Bucket containing the **SAP Software installation media files is required in the correct folder structure as defined**. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance).
 1. SAP binaries required for installation and folder structure in IBM Cloud Object Storage bucket. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-upload-binaries)
-
 
 
 ### Notes
