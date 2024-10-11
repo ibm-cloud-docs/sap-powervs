@@ -27,7 +27,7 @@ SAP solution provisioning as deployable architectures is a composition of two te
 -  [Power Virtual Server with VPC landing zone](/docs/powervs-vpc)
 -  This deployable architecture, Power Virtual Server for SAP HANA
 
-## SAP ready PowerVS Variation
+## Variation - SAP ready PowerVS
 {: #overview-sap-ready-powervs}
 
 'SAP ready PowerVS' variation of 'Power Virtual Server for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of the [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation.
@@ -54,11 +54,10 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 -  Post-instance provisioning, Ansible Galaxy collection roles from [IBM](https://galaxy.ansible.com/ui/repo/published/ibm/power_linux_sap/) are executed: `power_linux_sap`.
 -  Tested with RHEL8.4,/8.6/8.8/9.2, SLES15-SP3/SP5 images.
 
-### Before you begin
-{: #overview-sap-ready-powervs-before-you-begin}
+### Prerequisites
+{: #overview-sap-ready-powervs-prerequisites}
 
-1. **This solution requires a schematics workspace ID as input.**
-1. If you do not have a [Power Virtual Server with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) that is the full stack solution for a PowerVS Workspace with Secure Landing Zone, create it first.
+1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
 
 ### Notes
 {: #overview-sap-ready-powervs-notes}
@@ -69,7 +68,7 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 -  If **sharefs instance is enabled**, then all filesystems provisioned for sharefs instance will be **NFS exported and mounted** on all NetWeaver Instances.
 -  **Do not specify** a filesystem `/sapmnt` explicitly for NetWeaver instance as, it is created internally when sharefs instance is not enabled.
 
-## SAP S/4HANA or BW/4HANA Variation
+## Variation - SAP S/4HANA or BW/4HANA
 {: #overview-sap-s4hana-bw4hana}
 
 SAP S/4HANA or BW/4HANA' variation of 'Power Virtual Server for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation. 
@@ -79,3 +78,39 @@ Services such as DNS, NTP and NFS running in VPC and provided by 'Power Virtual 
 
 Transit gateway provide the network bridge between the IBM Power infrastructure and the IBM VPC and public internet. 
 The resulting SAP landscape leverages the services such as Activity Tracker, Cloud Object Storage, Key Management and the network connectivity configuration provided by 'Power Virtual Server with VPC landing zone'.
+
+### Summary Outcome
+{: #overview-sap-s4hana-bw4hana-summary-outcome}
+
+SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
+
+### Summary Tasks
+{: #overview-sap-s4hana-bw4hana-summary-tasks}
+
+- Creates a new private subnet for SAP communication for the entire landscape.
+- Creates and configures one PowerVS instance for SAP HANA based on best practices for HANA database.
+- Creates and configures one PowerVS instance for SAP NetWeaver based on best practices, hosting the PAS and ASCS instances.
+- Creates and configures one optional PowerVS instance for sharing SAP files between other system instances.
+- Connects all created PowerVS instances to a proxy server specified by IP address or hostname.
+- Optionally connects all created PowerVS instances to an NTP server and DNS forwarder specified by IP address or hostname.
+- Optionally configures a shared NFS directory on all created PowerVS instances.
+- Supports installation of **S/4HANA2023, S/4HANA2022, S/4HANA2021, S/4HANA2020, BW/4HANA2021**.
+- Supports installation using **Maintenance Planner** as well.
+
+
+### Prerequisites
+{: #overview-sap-ready-powervs-prerequisites}
+
+1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
+1.  **It is required to have an existing IBM Cloud Object Storage (COS) instance**. Within the instance, an Object Storage Bucket containing the **SAP Software installation media files is required in the correct folder structure as defined**. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance).
+1. SAP binaries required for installation and folder structure in IBM Cloud Object Storage bucket. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-upload-binaries)
+
+
+
+### Notes
+{: #overview-sap-ready-powervs-notes}
+
+- Filesystem sizes for HANA data and HANA log are **calculated automatically** based on the **memory size**.
+- Custom storage configuration by providing custom volume size, **iops**(tier0, tier1, tier3, tier5k), counts and mount points is supported.
+- If **sharefs instance is enabled**, then all filesystems provisioned for sharefs instance will be **NFS exported and mounted** on all NetWeaver Instances.
+- **Do not specify** a filesystem `/sapmnt` explicitly for NetWeaver instance as it is created internally when sharefs instance is not enabled.
