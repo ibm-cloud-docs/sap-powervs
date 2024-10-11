@@ -30,7 +30,7 @@ SAP solution provisioning as deployable architectures is a composition of two te
 ## Variation - SAP ready PowerVS
 {: #overview-sap-ready-powervs}
 
-'SAP ready PowerVS' variation of 'Power Virtual Server for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of the [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation.
+'SAP ready PowerVS' variation of 'Power Virtual Server for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of the [{{site.data.keyword.powerSysFull}} with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation.
 
 Services such as DNS, NTP and NFS running in VPC and provided by 'Power Virtual Server with VPC landing zone' are leveraged.
 Transit gateway provide the network bridge between the IBM Power infrastructure and the IBM VPC and public internet. 
@@ -57,7 +57,7 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 ### Prerequisites
 {: #overview-sap-ready-powervs-prerequisites}
 
-1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
+1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) create it first.
 
 ### Notes
 {: #overview-sap-ready-powervs-notes}
