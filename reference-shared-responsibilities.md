@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-09"
 subcollection: sap-powervs
 keywords:
 
@@ -40,7 +40,7 @@ Identity and access management includes tasks such as authentication, authorizat
 | Secure with least privilege | Document the minimal IAM access requirements to run the deployable architecture. |  |
 | Manage secrets | | * Generate the necessary secrets (for example, IAM API keys, SSH keys) that are required for the deployable architecture.  \n * Manage generated secrets by following secure best practices. |
 {: row-headers}
-{: caption="Table 3. Responsibilities for identity and access management" caption-side="bottom"}
+{: caption="Responsibilities for identity and access management" caption-side="bottom"}
 {: summary="The rows are read from left to right. The first column describes the task that the customer or IBM might be responsible for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
 
 ## Security and regulation compliance
@@ -52,4 +52,4 @@ Security and regulation compliance includes tasks such as security controls impl
 |----------|-----------------------|--------|
 | Ensure that the operating system image does not contain any vulnerabilities. | IBM Cloud provided and verified RHEL and SLES operating system images are used. After deployment, operating system images are updated to the newest state in the defined minor release. Official RHEL and SLES software repositories are used for installation of additional software components (like SQUID proxy). | Customer is responsible to keep the operating system secure and compliant after deployment. |
 | Ensure that the SAP software does not contain any vulnerabilities. | N/A | Customer is responsible to provide the SAP software. Customer is responsible to keep the SAP software secure and compliant after deployment. |
-{: caption="Table 1. Security and compliance responsibilities for provisioned components}
+{: caption="Security and compliance responsibilities for provisioned components}
