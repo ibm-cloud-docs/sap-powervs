@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-11"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -60,7 +60,7 @@ Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Requires {{site.data.keyword.powerSysFull}} with VPC landing zone version `>5.0.0`.
     - New Central Ansible node on landing zone.
     - Switch ansible playbook execution from localhost to target host.
-    - Switched from community `sap_swpm` role to [RHEL linux system SAP roles](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux_for_sap_solutions/8/html-single/red_hat_enterprise_linux_system_roles_for_sap/index)
+    - Switched from community `sap_swpm` role to [RHEL linux system SAP roles](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux_for_sap_solutions/8/html-single/red_hat_enterprise_linux_system_roles_for_sap/index)
     - Removed cloud connection support.
     - Supports `RHEL8.8/9.2 SAP` FLS(Full linux subscription) images.
     - Private SSH keys **must be passed as it is**. Doesn't support here doc string format anymore. 
