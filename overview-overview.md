@@ -36,7 +36,7 @@ Services such as DNS, NTP and NFS running in VPC and provided by 'Power Virtual 
 Transit gateway provide the network bridge between the IBM Power infrastructure and the IBM VPC and public internet. 
 The resulting SAP landscape leverages the services such as Activity Tracker, Cloud Object Storage, Key Management and the network connectivity configuration provided by 'Power Virtual Server with VPC landing zone'.
 
-### Summary Outcome:
+### Summary Outcome
 {: #overview-sap-ready-powervs-summary-outcome}
 
 SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
