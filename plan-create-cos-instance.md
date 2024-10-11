@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-11"
 subcollection: sap-powervs
 content-type: tutorial
 services: cloud-object-storage
@@ -27,7 +27,7 @@ This tutorial describes how to setup a [Cloud Object Storage (COS) instance](/do
 ## When is this required?
 {: #solution-create-cos-instance-when}
 
-The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](#prerequisites) and skip ahead to [Upload SAP installation binaries](#upload-sap-installation-binaries).
+The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prerequisites) and skip ahead to [Upload SAP installation binaries](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#upload-sap-installation-binaries).
 If you're using a stack solution, you need to create your own storage bucket to provide the installation files. In that case, follow every step in this tutorial.
 
 ## Prerequisites
@@ -90,7 +90,7 @@ Before you can create a storage bucket to store the SAP installation files, you 
 
     - By using the {{site.data.keyword.cloud_notm}} CLI:
 
-      Make sure you followed the steps in [IBMCloud CLI Setup](#IBMCloud-CLI-Setup) and are logged in.
+      Make sure you followed the steps in [IBMCloud CLI Setup](https://cloud.ibm.com/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prereq-ibmcloud-cli) and are logged in.
       You will need to select a payment plan. Unless you have a custom plan, typical options are `standard` or `lite`. For more information, refer [here](/docs/cloud-object-storage?topic=cloud-object-storage-provision).
 
       ```sh
