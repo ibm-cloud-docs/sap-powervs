@@ -68,7 +68,7 @@ The easiest way to install AWS CLI is via `pip install awscli`.
 
 For more information about using the AWS CLI with the {{site.data.keyword.cloud_notm}} Object Storage, check out [Using the AWS CLI](/docs/cloud-object-storage?topic=cloud-object-storage-aws-cli).
 
-## Create a COS Service Instance with a Storage Bucket
+## Create a COS Service Instance with a Storage Bucket (optional)
 {: #solution-create-cos-instance-creation}
 {: step}
 
