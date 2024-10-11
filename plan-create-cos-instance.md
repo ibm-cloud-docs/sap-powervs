@@ -27,7 +27,7 @@ This tutorial describes how to setup a [Cloud Object Storage (COS) instance](/do
 ## When is this required?
 {: #solution-create-cos-instance-when}
 
-The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prerequisites) and skip ahead to [Upload SAP installation binaries](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#upload-sap-installation-binaries).
+The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prerequisites) and skip ahead to [Upload SAP installation binaries](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-upload-binaries).
 If you're using a stack solution, you need to create your own storage bucket to provide the installation files. In that case, follow every step in this tutorial.
 
 ## Prerequisites
