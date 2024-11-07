@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-11"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 keywords: powervs, landing zone, sap, automation, deployable architecture, hana, s4hana, bw4hana
 
@@ -24,17 +24,17 @@ Automated SAP provisioning on PowerVS described in this guide is based upon IBM 
 {: #automation-solution-components}
 
 SAP solution provisioning as deployable architectures is a composition of two terraform based solutions
--  [Power Virtual Server with VPC landing zone](/docs/powervs-vpc)
--  This deployable architecture, Power Virtual Server for SAP HANA
+-  [{{site.data.keyword.powerSysFull}} with VPC landing zone](/docs/powervs-vpc)
+-  This deployable architecture, {{site.data.keyword.powerSysFull}} for SAP HANA
 
 ## Variation - SAP ready PowerVS
 {: #overview-sap-ready-powervs}
 
-'SAP ready PowerVS' variation of 'Power Virtual Server for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of the [{{site.data.keyword.powerSysFull}} with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation.
+'SAP ready PowerVS' variation of '{{site.data.keyword.powerSysFull}} for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of the [{{site.data.keyword.powerSysFull}}  with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation.
 
-Services such as DNS, NTP and NFS running in VPC and provided by 'Power Virtual Server with VPC landing zone' are leveraged.
+Services such as DNS, NTP and NFS running in VPC and provided by '{{site.data.keyword.powerSysFull}} with VPC landing zone' are leveraged.
 Transit gateway provide the network bridge between the IBM Power infrastructure and the IBM VPC and public internet. 
-The resulting SAP landscape leverages the services such as Activity Tracker, Cloud Object Storage, Key Management and the network connectivity configuration provided by 'Power Virtual Server with VPC landing zone'.
+The resulting SAP landscape leverages the services such as Activity Tracker, Cloud Object Storage, Key Management and the network connectivity configuration provided by '{{site.data.keyword.powerSysFull}} with VPC landing zone'.
 
 ### Summary Outcome
 {: #overview-sap-ready-powervs-summary-outcome}
@@ -57,7 +57,7 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 ### Prerequisites
 {: #overview-sap-ready-powervs-prerequisites}
 
-1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) create it first.
+1. If you do not have a [Standard Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) create it first.
 
 ### Notes
 {: #overview-sap-ready-powervs-notes}
@@ -73,13 +73,13 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 ## Variation - SAP S/4HANA or BW/4HANA
 {: #overview-sap-s4hana-bw4hana}
 
-SAP S/4HANA or BW/4HANA' variation of 'Power Virtual Server for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation. 
+SAP S/4HANA or BW/4HANA' variation of '{{site.data.keyword.powerSysFull}} for SAP HANA' creates a basic and expandable SAP system landscape builds on the foundation of [{{site.data.keyword.powerSysFull}}  with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture. PowerVS instances for SAP HANA, SAP NetWeaver and optionally for shared SAP files are deployed and preconfigured for SAP installation. 
 
 **S/4HANA or BW/4HANA solution is installed based on selected version.**
-Services such as DNS, NTP and NFS running in VPC and provided by 'Power Virtual Server with VPC landing zone' are leveraged.
+Services such as DNS, NTP and NFS running in VPC and provided by '{{site.data.keyword.powerSysFull}} with VPC landing zone' are leveraged.
 
 Transit gateway provide the network bridge between the IBM Power infrastructure and the IBM VPC and public internet. 
-The resulting SAP landscape leverages the services such as Activity Tracker, Cloud Object Storage, Key Management and the network connectivity configuration provided by 'Power Virtual Server with VPC landing zone'.
+The resulting SAP landscape leverages the services such as Activity Tracker, Cloud Object Storage, Key Management and the network connectivity configuration provided by '{{site.data.keyword.powerSysFull}} with VPC landing zone'.
 
 ### Summary Outcome
 {: #overview-sap-s4hana-bw4hana-summary-outcome}
@@ -103,7 +103,7 @@ SAP S/4HANA or SAP BW/4HANA installation configuration to IBM PowerVS hosts.
 ### Prerequisites
 {: #overview-sap-ready-powervs-prerequisites}
 
-1. If you do not have a [Standard Variation of Power Virtual Server with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
+1. If you do not have a [Standard Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
 1.  **It is required to have an existing IBM Cloud Object Storage (COS) instance**. Within the instance, an Object Storage Bucket containing the **SAP Software installation media files is required in the correct folder structure as defined**. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance).
 
 

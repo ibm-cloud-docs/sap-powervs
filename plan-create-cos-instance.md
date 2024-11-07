@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-11"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 content-type: tutorial
 services: cloud-object-storage
@@ -20,14 +20,14 @@ keywords: cos, binaries, s4hana
 {: toc-services="cloud-object-storage"}
 {: toc-completion-time="20m"}
 
-[Power Systems Virtual Server for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global) requires a COS storage bucket with the SAP HANA installation files.
+[{{site.data.keyword.powerSysFull}}  for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global) requires a COS storage bucket with the SAP HANA installation files.
 This tutorial describes how to setup a [Cloud Object Storage (COS) instance](/docs/cloud-object-storage?topic=cloud-object-storage-about-cloud-object-storage) and place the SAP installation files inside. For more information about Cloud object storage, click [here](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 {: shortdesc}
 
 ## When is this required?
 {: #solution-create-cos-instance-when}
 
-The [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [Power Virtual Server with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prerequisites) and skip ahead to [Upload SAP installation binaries](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-upload-binaries).
+The [{{site.data.keyword.powerSysFull}} with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) comes with a storage bucket that is meant to be used for the installation files. If you deployed [{{site.data.keyword.powerSysFull}} with VPC landing zone](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) without using a stack solution, check the [Prerequisites](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-prerequisites) and skip ahead to [Upload SAP installation binaries](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance#solution-create-cos-instance-upload-binaries).
 If you're using a stack solution, you need to create your own storage bucket to provide the installation files. In that case, follow every step in this tutorial.
 
 ## Prerequisites
@@ -220,5 +220,5 @@ You can find the endpoint using the {{site.data.keyword.cloud_notm}} console in 
 Check this [documentation](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/blob/main/solutions/ibm-catalog/sap-s4hana-bw4hana/README.md#2-sap-binaries-required-for-installation-and-folder-structure-in-ibm-cloud-object-storage-bucket) for more information and an example of the binaries required for S/4HANA 2023 and BW/4HANA 2021
 {: tip}
 
-During deployment, you have to tell Power Virtual Server for SAP HANA where to find the installation files through the ibmcloud_cos_configuration variable.
+During deployment, you have to tell {{site.data.keyword.powerSysFull}} for SAP HANA where to find the installation files through the ibmcloud_cos_configuration variable.
 {: tip}

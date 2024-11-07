@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-11"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -11,7 +11,7 @@ keywords:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Release notes for the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture
+# Release notes for the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture
 {: #automation-solution-relnotes}
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
@@ -24,7 +24,7 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 {: #sap-powervs-jun10}
 {: release-note}
 
-Version 2.1.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 2.1.1 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 2.1.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Fixes HANA AFL additional installation by installing missing `glibc-langpack-en` package.
 
@@ -32,7 +32,7 @@ Version 2.1.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-jun07}
 {: release-note}
 
-Version 2.1.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 2.1.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 2.1.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Supports `S/4HANA 2023`
     - Storage requirements for HANA DATA and log filesystem has been updated based on SAP release notes in March 2024. Now the storage is calculated with a factor of `1.5 x Memory` instead of `1.2 x Memory`
@@ -44,7 +44,7 @@ Version 2.1.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-may31}
 {: release-note}
 
-Version 2.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 2.0.1 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 2.0.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Please refer release notes v2.0.0
     - Upgraded ansible collection `ibm.power_linux_sap` version to `v2.1.1` that fixes SLES OS initialization.
@@ -54,10 +54,10 @@ Version 2.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-may26}
 {: release-note}
 
-Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 2.0.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 2.0.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Does not support upgrade process from previous version 1.x.x to 2.0.0.
-    - Requires {{site.data.keyword.powerSysFull}} with VPC landing zone version `>5.0.0`.
+    - Requires {{site.data.keyword.powerSysFull}}  with VPC landing zone version `>5.0.0`.
     - New Central Ansible node on landing zone.
     - Switch ansible playbook execution from localhost to target host.
     - Switched from community `sap_swpm` role to [RHEL linux system SAP roles](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux_for_sap_solutions/8/html-single/red_hat_enterprise_linux_system_roles_for_sap/index)
@@ -74,7 +74,7 @@ Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-may11}
 {: release-note}
 
-Version 1.11.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.11.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 1.11.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade Toronto 01 `tor01` DC to PER. New deployments in Toronto 01 region will make use of PER.
     - Upgrade US-south `us-south` DC to PER. New deployments in Us-south region will make use of PER.
@@ -89,7 +89,7 @@ Version 1.11.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword
 {: #sap-powervs-may2}
 {: release-note}
 
-Version 1.10.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.10.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 1.10.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade Sydney 04 `syd04` DC to PER. New deployments in Sydney 04 region will make use of PER.
 
@@ -106,7 +106,7 @@ Version 1.10.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword
 {: #sap-powervs-apr14}
 {: release-note}
 
-Version 1.9.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.9.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 1.9.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade `tok04`, `osa21`, `lon06` and `syd05` DCs to PER. New deployments in these regions will make use of PER.
     - Improved automatic storage based on memory usage making use of fixed iops and other tiers for data, log and shared disks.
@@ -126,7 +126,7 @@ Version 1.9.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-feb7}
 {: release-note}
 
-Version 1.8.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.8.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 1.8.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade Sao Paulo 01 `sao01` DC to PER. New deployments in Sao Paulo 01 region will make use of PER.
 
@@ -141,7 +141,7 @@ Version 1.8.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-feb1}
 {: release-note}
 
-Version 1.7.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.7.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 1.7.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade Dallas 12 `dal12` DC to PER. New deployments in Dallas 12 region will make use of PER.
 
@@ -158,7 +158,7 @@ Version 1.7.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-jan30}
 {: release-note}
 
-Version 1.6.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.6.1 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 :   Version 1.6.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Fixes SAP SWPM hdbuserstore config by setting correct port for proper communication between Netweaver instance and HANA DB host. This fix is applicable for `S/4HANA and BW/4HANA solution` variation only.
 
@@ -167,7 +167,7 @@ Version 1.6.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-jan12}
 {: release-note}
 
-Version 1.6.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.6.0 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 :   Version 1.6.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade Frankfurt 1 `eu-de-1` and Frankfurt 2 `eu-de-2` DCs to PER.
     - Enable support for `SAO04` PER datacenter.
@@ -183,7 +183,7 @@ Version 1.6.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 {: #sap-powervs-jan08}
 {: release-note}
 
-Version 1.5.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+Version 1.5.1 of the {{site.data.keyword.powerSysFull}}  for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 :   Version 1.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Upgrade terraform IBM provider version to `1.61.0`
 

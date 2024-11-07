@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 keywords:
 
@@ -10,10 +10,10 @@ keywords:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Understanding your responsibilities when you use Power Virtual Server for SAP HANA deployable architecture
+# Understanding your responsibilities when you use {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture
 {: #shared-resp}
 
-Learn about the management responsibilities and terms and conditions that you have when you use the Power Systems Virtual Server for SAP HANA deployable architecture.
+Learn about the management responsibilities and terms and conditions that you have when you use the {{site.data.keyword.powerSysFull}}  for SAP HANA deployable architecture.
 {: shortdesc}
 
 - For more information about the responsibilities for you and for {{site.data.keyword.IBM}} when you use a deployable architecture, see [Understanding your responsibilities when you use deployable architectures](/docs/secure-enterprise?topic=secure-enterprise-responsibilities-deployable-architectures).
@@ -21,7 +21,7 @@ Learn about the management responsibilities and terms and conditions that you ha
 - For the overall terms of use, see [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 - For more information about the shared responsibilities for each Financial Services Validated service, see [Responsibilities for operating services in your deployment](/docs/framework-financial-services?topic=framework-financial-services-shared-responsibilities) in {{site.data.keyword.framework-fs_full}}.
 
-Review the following section for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use the Power Virtual Server for SAP HANA deployable architecture.
+Review the following section for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use the {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture.
 
 ## Incident and operations management
 {: #incident-and-ops}

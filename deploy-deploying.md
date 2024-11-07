@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 keywords:
 
@@ -10,7 +10,7 @@ keywords:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Deploying a Power Virtual Server for SAP HANA deployable architecture
+# Deploying a {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture
 {: #deploy}
 
 You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm}} catalog. You can choose one of several deployment options, including with {{site.data.keyword.cloud_notm}} projects. [Learn about IaC deployments with projects](/docs/secure-enterprise?topic=secure-enterprise-understanding-projects).
@@ -18,14 +18,14 @@ You can deploy a deployable architecture from the {{site.data.keyword.cloud_notm
 ## Deploying with {{site.data.keyword.cloud_notm}} projects
 {: #deploy-cloud}
 
-To deploy a Power Virtual Server for SAP HANA deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, follow these steps:
+To deploy a {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture through the {{site.data.keyword.cloud_notm}} catalog, follow these steps:
 
 1.  Make sure that you comply with the prerequisites in the [planning](/docs/sap-powervs?topic=sap-powervs-plan) topic:
     - Have an {{site.data.keyword.cloud_notm}} API key.
     - Verify access roles.
-    - [Schematics Workspace ID of an exiting {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture](/docs/sap-powervs?topic=sap-powervs-plan#powervs-vpc-landing-zone-da)
+    - [Schematics Workspace ID of an exiting {{site.data.keyword.powerSysFull}}  with VPC landing zone deployable architecture](/docs/sap-powervs?topic=sap-powervs-plan#powervs-vpc-landing-zone-da)
 1.  Go to the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external} and search for the architecture that you're interested in deploying:
-    - Power Virtual Server for SAP HANA
+    - {{site.data.keyword.powerSysFull}} for SAP HANA
 1.  Click the tile for the deployable architecture to open the details.
 1.  Select the latest product version in the Architecture section.
 1.  Select a variation, if more than one is available.

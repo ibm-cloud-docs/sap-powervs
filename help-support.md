@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 keywords:
 ---
@@ -10,10 +10,10 @@ keywords:
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Getting help and support for Power Systems Virtual Server for SAP HANA
+# Getting help and support for {{site.data.keyword.powerSysFull}} for SAP HANA
 {: #help-support}
 
-If you experience an issue or have questions when deploying Power Systems Virtual Server for SAP HANA, you can use the following resources before you open a support case.
+If you experience an issue or have questions when deploying {{site.data.keyword.powerSysFull}}  for SAP HANA, you can use the following resources before you open a support case.
 {: shortdesc}
 
 - Review the [FAQs](/docs/sap-powervs?topic=sap-powervs-automation-faqs) in the deployment guide.
