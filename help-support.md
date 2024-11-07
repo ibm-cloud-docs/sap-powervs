@@ -13,7 +13,7 @@ keywords:
 # Getting help and support for {{site.data.keyword.powerSysFull}} for SAP HANA
 {: #help-support}
 
-If you experience an issue or have questions when deploying {{site.data.keyword.powerSysFull}}  for SAP HANA, you can use the following resources before you open a support case.
+If you experience an issue or have questions when deploying {{site.data.keyword.powerSysFull}} for SAP HANA, you can use the following resources before you open a support case.
 {: shortdesc}
 
 - Review the [FAQs](/docs/sap-powervs?topic=sap-powervs-automation-faqs) in the deployment guide.

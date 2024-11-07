@@ -20,7 +20,7 @@ keywords: cos, binaries, s4hana
 {: toc-services="cloud-object-storage"}
 {: toc-completion-time="20m"}
 
-[{{site.data.keyword.powerSysFull}}  for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global) requires a COS storage bucket with the SAP HANA installation files.
+[{{site.data.keyword.powerSysFull}} for SAP HANA](/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global) requires a COS storage bucket with the SAP HANA installation files.
 This tutorial describes how to setup a [Cloud Object Storage (COS) instance](/docs/cloud-object-storage?topic=cloud-object-storage-about-cloud-object-storage) and place the SAP installation files inside. For more information about Cloud object storage, click [here](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 {: shortdesc}
 

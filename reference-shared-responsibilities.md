@@ -13,7 +13,7 @@ keywords:
 # Understanding your responsibilities when you use {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture
 {: #shared-resp}
 
-Learn about the management responsibilities and terms and conditions that you have when you use the {{site.data.keyword.powerSysFull}}  for SAP HANA deployable architecture.
+Learn about the management responsibilities and terms and conditions that you have when you use the {{site.data.keyword.powerSysFull}} for SAP HANA deployable architecture.
 {: shortdesc}
 
 - For more information about the responsibilities for you and for {{site.data.keyword.IBM}} when you use a deployable architecture, see [Understanding your responsibilities when you use deployable architectures](/docs/secure-enterprise?topic=secure-enterprise-responsibilities-deployable-architectures).

@@ -26,7 +26,7 @@ After the deployment has been completed you can connect to the landscape by usin
 {: #solution-ssh-prereqs}
 {: step}
 
-1. Make sure you have deployed the [{{site.data.keyword.powerSysFull}}  with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture landscape by entering a value in the `external_access_ip` field. Only this IP will be allowed to login to the environment as it is allowed in the management-sg group.
+1. Make sure you have deployed the [{{site.data.keyword.powerSysFull}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) deployable architecture landscape by entering a value in the `external_access_ip` field. Only this IP will be allowed to login to the environment as it is allowed in the management-sg group.
 1. Review the outputs from the deployable architecture.
 
 ## Connect to the landscape

@@ -23,7 +23,7 @@ To deploy a {{site.data.keyword.powerSysFull}} for SAP HANA deployable architect
 1.  Make sure that you comply with the prerequisites in the [planning](/docs/sap-powervs?topic=sap-powervs-plan) topic:
     - Have an {{site.data.keyword.cloud_notm}} API key.
     - Verify access roles.
-    - [Schematics Workspace ID of an exiting {{site.data.keyword.powerSysFull}}  with VPC landing zone deployable architecture](/docs/sap-powervs?topic=sap-powervs-plan#powervs-vpc-landing-zone-da)
+    - [Schematics Workspace ID of an exiting {{site.data.keyword.powerSysFull}} with VPC landing zone deployable architecture](/docs/sap-powervs?topic=sap-powervs-plan#powervs-vpc-landing-zone-da)
 1.  Go to the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external} and search for the architecture that you're interested in deploying:
     - {{site.data.keyword.powerSysFull}} for SAP HANA
 1.  Click the tile for the deployable architecture to open the details.
