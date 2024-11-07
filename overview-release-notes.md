@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-11"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 content-type: release-note
 keywords:

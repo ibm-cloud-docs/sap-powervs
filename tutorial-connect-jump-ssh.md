@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-11-07"
 subcollection: sap-powervs
 content-type: tutorial
 services: ssh
@@ -13,7 +13,7 @@ keywords:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Connect to Power Virtual Server Instances using floating IP
+# Connect to {{site.data.keyword.powerSysFull}} Instances using floating IP
 {: #solution-ssh}
 {: toc-content-type="tutorial"}
 {: toc-services="ssh"}

@@ -12,7 +12,7 @@ toc:
     industry: ITServiceManagement
     deployable: true
     description: Deploy your first SAP-ready landscape by using SAP solution provisioning with a deployable architecture.
-    label: Power Systems Virtual Server for SAP HANA
+    label: Power Virtual Server for SAP HANA
   entries:
     - navgroup:
         id: overview
@@ -57,9 +57,15 @@ toc:
     - navgroup:
         id: help
         topics:
+          - navtitle: Getting help and support
+            topic: help-support.md
+          - navtitle: FAQs
+            topic: help-faqs.md
           - topicgroup:
               label: Troubleshooting
               topics:
+                - navtitle: My deployment failed how do I proceed?
+                  topic: help-troubleshoot-ts-deploy.md
                 - topicgroup:
                     label: Troubleshooting projects
                     topics:
@@ -68,11 +74,9 @@ toc:
                       - navtitle: How do I address a failed deployment?
                         include: ../secure-enterprise/ts-deploy.md
                 - topicgroup:
-                    label: Troubleshooting deployment
+                    label: Troubleshooting Schematics
                     topics:
-                      - navtitle: My deployment failed, how do I proceed?
-                        topic: help-troubleshoot-deploy.md
-          - navtitle: Getting help and support
-            topic: help-support.md
-          - navtitle: FAQs
-            topic: help-faqs.md
+                      - navtitle: Why am I getting 5xx errors in Schematics?
+                        include: ../schematics/troubleshooting/apply_500_errors.md
+                      - navtitle: How can I find the root cause of Schematics apply failures?
+                        include: ../schematics/troubleshooting/apply_nullresource.md
