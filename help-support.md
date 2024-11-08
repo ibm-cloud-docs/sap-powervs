@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-08"
 subcollection: sap-powervs
 keywords:
 ---
@@ -19,10 +19,10 @@ If you experience an issue or have questions when deploying {{site.data.keyword.
 - Review the [FAQs](/docs/sap-powervs?topic=sap-powervs-automation-faqs) in the deployment guide.
 - ![{{site.data.keyword.cloud_notm}} icon](../icons/ibm-cloud-16.svg "IBM Cloud icon") Check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 - ![GitHub icon](../icons/logo-github-16.svg "GitHub icon") Review the [GitHub issues](https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap/issues){: external} to see whether other users experienced the same problem.
-- Review the [troubleshooting documentation](/docs/sap-powervs?topic=sap-powervs-troubleshoot-deploy) to troubleshoot and resolve common issues.
+- Review the [troubleshooting documentation](/docs/sap-powervs?topic=sap-powervs-ts-deploy) to troubleshoot and resolve common issues.
 - ![Slack icon](../icons/logo-slack-16.svg "Slack icon") Ask product experts and the community questions on the [sap-on-power-deployable-architectures](https://ibm-cloudplatform.slack.com/archives/C04RJB1UX53) Slack channel.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case&interface=ui). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
 
 ## Providing support case details
 {: #support-case-details}
