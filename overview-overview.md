@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-08"
 subcollection: sap-powervs
 keywords: powervs, landing zone, sap, automation, deployable architecture, hana, s4hana, bw4hana
 
@@ -101,14 +101,14 @@ SAP S/4HANA or SAP BW/4HANA installation configuration to IBM PowerVS hosts.
 
 
 ### Prerequisites
-{: #overview-sap-ready-powervs-prerequisites}
+{: #overview-sap-s4hana-bw4hana-prerequisites}
 
 1. If you do not have a [Standard Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
 1.  **It is required to have an existing IBM Cloud Object Storage (COS) instance**. Within the instance, an Object Storage Bucket containing the **SAP Software installation media files is required in the correct folder structure as defined**. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance).
 
 
 ### Notes
-{: #overview-sap-ready-powervs-notes}
+{: #overview-sap-s4hana-bw4hana-notes}
 
 - Filesystem sizes for HANA data and HANA log are **calculated automatically** based on the **memory size**.
 - Custom storage configuration by providing custom volume size, **iops**(tier0, tier1, tier3, tier5k), counts and mount points is supported.
