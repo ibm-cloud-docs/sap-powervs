@@ -42,6 +42,8 @@ toc:
         topics:
           - navtitle: Deploy using Projects
             topic: deploy-deploying.md
+          - navtitle: Destroy using Projects
+            topic: destroy-destroying.md
     - navgroup:
         id: tutorial
         topics:
