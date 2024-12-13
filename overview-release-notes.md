@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-11-11"
+lastupdated: "2024-12-13"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -16,6 +16,23 @@ keywords:
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## December 2024
+{: #sap-powervs-2024-12}
+
+### 13 December 2024
+{: #sap-powervs-dec13}
+{: release-note}
+
+Version 3.3.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 3.3.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Upgrade minimum version for power_linux_sap roles to `v3.0.0`
+    - Upgrade IBM terraform provider version to `1.71.3`
+    - Added checks for Full Linux subscription
+    - Add input validation for sap solution variables
+    - Remove ansible collection version dependencies from scripts instead install collection dependencies from ansible galaxy requirements.yml
+    - Support SAP deployments in `lon04` DC
+    - Requires [{{site.data.keyword.powerSys_notm}} with VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global){: external} version `>= 8.0.0`
 
 ## November 2024
 {: #sap-powervs-2024-11}
