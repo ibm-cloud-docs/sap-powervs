@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-12-06"
+  years: 2023, 2025
+lastupdated: "2025-01-02"
 subcollection: sap-powervs
 content-type: tutorial
 account-plan: paid
@@ -50,10 +50,10 @@ In this tutorial, you'll learn how to destroy the resources deployed by the [Pow
         1.  If you encounter any issues during this process, refer to the [troubleshooting](#destroy-troubleshooting) section
         
 
-    - You can access the logs by clicking on the status `Undeploying...` and clicking on the second line that says `Undeploying resources...`.
+    You can access the logs by clicking on the status `Undeploying...` and clicking on the second line that says `Undeploying resources...`.
     {: tip}
 
-    - Alternatively, you can also follow the process in the related **Schematics workspace**, which you can easily access by clicking on the link under **Workspace** inside your configuration.
+    Alternatively, you can also follow the process in the related **Schematics workspace**, which you can easily access by clicking on the link under **Workspace** inside your configuration.
     {: tip}
 
     1.  Cleanup
