@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-09-23"
+  years: 2023, 2024, 2025
+lastupdated: "2025-01-14"
 subcollection: sap-powervs
 content-type: tutorial
 services: vpc, secrets-manager, dl, schematics
@@ -23,45 +23,34 @@ keywords:
 This tutorial dives into the fastest option to get up and running with a [client VPN for VPC](/docs/vpc?topic=vpc-vpn-client-to-site-overview) connectivity.
 {: shortdesc}
 
+## Download the OpenVPN client profile template
+{: #solution-connect-client-vpn-openvpn-template}
+{: step}
+
+After the VPN server cloud resources are deployed, set up the OpenVPN client on devices that will access your landing zone.
+By using the {{site.data.keyword.cloud_notm}} console:
+1. Click the **Navigation menu** icon ![Navigation menu icon](../icons/icon_hamburger.svg "Menu"), and then click **VPC Infrastructure** > **VPNs** in the **Network** section to open the VPNs for VPC page.
+1. Click the **Client-to-site servers** tab and select the client-to-site VPN server that you created.
+1. Click the **Clients** tab. Then, click **Download client profile**.
+
+
+## Download the OpenVPN client software
+{: #solution-connect-client-vpn-openvpn-software}
+{: step}
+
+1.  Download and install the OpenVPN client application from https://openvpn.net/client/
+1.  Open the OpenVPN client application, and import the `client2site-vpn.ovpn` file which was downloaded in Step 1.
+1.  Enter one of the {{site.data.keyword.cloud_notm}} email addresses that was configured to access the VPN as the user ID.
+1.  Go to [https://iam.cloud.ibm.com/identity/passcode](https://iam.cloud.ibm.com/identity/passcode) in your browser to generate a passcode. Copy the passcode.
+1.  Return to the OpenVPN client application and paste the one-time passcode. 
+1.  Click Continue.
+
 
 ## Configure the OpenVPN client
 {: #solution-connect-client-vpn-openvpn}
 {: step}
 
 After the VPN server cloud resources which were deployed during the PowerVS with VPC landing zone architecture, set up the OpenVPN client on devices that will access your SAP HANA PowerVS instances.
-
-1.  Download the OpenVPN profile from the VPN server
-
-    - By using the {{site.data.keyword.cloud_notm}} console:
-        1.  Click the **Navigation menu** icon ![Navigation menu icon](../icons/icon_hamburger.svg "Menu"), and then click **VPC Infrastructure** > **VPNs** in the **Network** section to open the VPNs for VPC page.
-        1.  Click the **Client-to-site servers** tab and select the client-to-site VPN server that you created.
-        1.  Click the **Clients** tab. Then, click **Download client profile**.
-
-      Or
-
-    - By using the {{site.data.keyword.cloud_notm}} CLI:
-
-      ```sh
-      ibmcloud is vpn-server-client-configuration VPN_SERVER --file client2site-vpn.ovpn
-      ```
-      {: pre}
-
-      Look for the `VPN_SERVER` ID in the output of the Terraform apply from the validation step. If you don't find it there, follow the previous steps to download the profile and look in the `<vpn_server>.ovpn` file.
-1.  Set up the client:
-
-    You can follow the steps in [Setting up a VPN client](/docs/vpc?topic=vpc-setting-up-vpn-client).
-    {: tip}
-
-    1.  Download and install the OpenVPN client application from https://openvpn.net.
-    1.  Open the OpenVPN client application, and import the `client2site-vpn.ovpn` file.
-    1.  Enter one of the {{site.data.keyword.cloud_notm}} email addresses that was configured to access the VPN as the user ID.
-1.  Go to [https://iam.cloud.ibm.com/identity/passcode](https://iam.cloud.ibm.com/identity/passcode) in your browser to generate a passcode. Copy the passcode.
-1.  Return to the OpenVPN client application and paste the one-time passcode. Then, import the `client2site-vpn.ovpn` certificate file.
-
-### Using client certificates rather than one-time passcodes
-{: #connect-client-vpn-certs}
-
-If you want to configure client certs on the VPN rather than using a one-time-passcode, follow the instructions in the [Managing VPN server and client certifications](/docs/vpc?topic=vpc-client-to-site-authentication#creating-cert-manager-instance-import) section of the client-to-site documentation.
 
 ## Test your VPN connection
 {: #connect-client-vpn-connection}
