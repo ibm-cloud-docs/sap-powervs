@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-12-13"
+  years: 2023, 2024, 2025
+lastupdated: "2025-01-15"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -16,6 +16,20 @@ keywords:
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## January 2025
+{: #sap-powervs-2025-01}
+
+### 15 January 2025
+{: #sap-powervs-jan15}
+{: release-note}
+
+Version 3.4.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 3.4.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - New feature **Integration with IBM Cloud Monitoring Service: SAP Dashboards**
+    - When a Monitoring Instance and monitoring host are deployed using the {{site.data.keyword.powerSys_notm}} with the VPC landing zone deployable architecture standard variation, the S/4HANA or BW4/HANA solution now supports the export of HANA database and SAP System metrics. These metrics are seamlessly integrated and displayed on the IBM Cloud Monitoring Dashboard.
+    - Upgrade IBM terraform provider version to `1.74.0`
+
 
 ## December 2024
 {: #sap-powervs-2024-12}
