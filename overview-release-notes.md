@@ -27,7 +27,7 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 Version 3.4.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 3.4.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - New feature **Integration with IBM Cloud Monitoring Service: SAP Dashboards**
-    - When a Monitoring Instance and monitoring host are deployed using the {{site.data.keyword.powerSys_notm}} with the VPC landing zone deployable architecture standard variation, the S/4HANA or BW4/HANA solution now supports the export of HANA database and SAP System metrics. These metrics are seamlessly integrated and displayed on the IBM Cloud Monitoring Dashboard.
+    - When a Monitoring Instance and monitoring host are deployed using the {{site.data.keyword.powerSys_notm}} with the VPC landing zone deployable architecture standard variation, the S/4HANA or BW/4HANA solution now supports the export of HANA database and SAP System metrics. These metrics are seamlessly integrated and displayed on the IBM Cloud Monitoring Dashboard.
     - Upgrade IBM terraform provider version to `1.74.0`
 
 
