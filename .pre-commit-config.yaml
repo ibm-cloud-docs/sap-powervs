@@ -1,0 +1,26 @@
+default_stages: [commit]
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-yaml
+        exclude: .png|.jpg|.svg|.drawio
+      - id: check-json
+        exclude: .png|.jpg|.svg|.drawio
+      - id: end-of-file-fixer
+        exclude: .png|.jpg|.svg|.drawio
+      - id: trailing-whitespace
+        exclude: .png|.jpg|.svg|.drawio
+      - id: check-merge-conflict
+        exclude: .png|.jpg|.svg|.drawio
+      - id: detect-private-key
+        exclude: .png|.jpg|.svg|.drawio
+      - id: mixed-line-ending
+        exclude: .png|.jpg|.svg|.drawio
+        args: ["--fix=lf"]
+        description: Forces to replace line ending by the UNIX 'lf' character
+      - id: check-symlinks
+        exclude: .png|.jpg|.svg|.drawio
+        types: ["symlink"]
+        types_or: ["symlink"]
+        stages: [manual]
