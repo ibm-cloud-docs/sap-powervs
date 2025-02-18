@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024, 2025
-lastupdated: "2025-01-15"
+  years: 2023, 2025
+lastupdated: "2025-02-18"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -107,7 +107,7 @@ Version 2.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Switched from community `sap_swpm` role to [RHEL linux system SAP roles](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux_for_sap_solutions/8/html-single/red_hat_enterprise_linux_system_roles_for_sap/index)
     - Removed cloud connection support.
     - Supports `RHEL8.8/9.2 SAP` FLS(Full linux subscription) images.
-    - Private SSH keys **must be passed as it is**. Doesn't support here doc string format anymore. 
+    - Private SSH keys **must be passed as it is**. Doesn't support here doc string format anymore.
 
 [Warning]{: tag-red}
 : Version 2.0.0 includes backward-incompatible changes.
@@ -124,7 +124,7 @@ Version 1.11.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword
     - Upgrade US-south `us-south` DC to PER. New deployments in Us-south region will make use of PER.
 
 [Warning]{: tag-red}
-: Version 1.11.0 includes backward-incompatible changes for `tor01` and `us-south` DCs only. 
+: Version 1.11.0 includes backward-incompatible changes for `tor01` and `us-south` DCs only.
     - Do not upgrade to this version if previous deployments were made in `tor01` and `us-south` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in `tor01` and `us-south` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
@@ -138,7 +138,7 @@ Version 1.10.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword
     - Upgrade Sydney 04 `syd04` DC to PER. New deployments in Sydney 04 region will make use of PER.
 
 [Warning]{: tag-red}
-: Version 1.10.0 includes backward-incompatible changes for Sydney 04 `syd04` DC only. 
+: Version 1.10.0 includes backward-incompatible changes for Sydney 04 `syd04` DC only.
     - Do not upgrade to this version if previous deployments were made in Sydney 04 `syd04` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in Sydney 04 `syd04` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
@@ -158,7 +158,7 @@ Version 1.9.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Upgraded IBM terraform provider version to `1.64.1`
 
 [Warning]{: tag-red}
-: Version 1.9.0 includes backward-incompatible changes for Sao Paulo 01 `tok04`, `osa21`, `lon06` and `syd05` DCs only. 
+: Version 1.9.0 includes backward-incompatible changes for Sao Paulo 01 `tok04`, `osa21`, `lon06` and `syd05` DCs only.
     - Do not upgrade to this version if previous deployments were made in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in `tok04`, `osa21`, `lon06` and `syd05` {{site.data.keyword.powerSys_notm}} zones.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
@@ -175,7 +175,7 @@ Version 1.8.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Upgrade Sao Paulo 01 `sao01` DC to PER. New deployments in Sao Paulo 01 region will make use of PER.
 
 [Warning]{: tag-red}
-: Version 1.8.0 includes backward-incompatible changes for Sao Paulo 01 `sao01` DC only. 
+: Version 1.8.0 includes backward-incompatible changes for Sao Paulo 01 `sao01` DC only.
     - Do not upgrade to this version if previous deployments were made in Sao Paulo 01 `sao01` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in Sao Paulo 01 `sao01` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
@@ -190,7 +190,7 @@ Version 1.7.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Upgrade Dallas 12 `dal12` DC to PER. New deployments in Dallas 12 region will make use of PER.
 
 [Warning]{: tag-red}
-: Version 1.7.0 includes backward-incompatible changes for Dallas 12 `dal12` DC only. 
+: Version 1.7.0 includes backward-incompatible changes for Dallas 12 `dal12` DC only.
     - Do not upgrade to this version if previous deployments were made in Dallas 12 `dal12` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER.
     - Use this for new deployments in Dallas 12 `dal12` {{site.data.keyword.powerSys_notm}} zone.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.
@@ -217,7 +217,7 @@ Version 1.6.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
     - Enable support for `SAO04` PER datacenter.
 
 [Warning]{: tag-red}
-: Version 1.6.0 includes backward-incompatible changes for Frankfurt 1 `eu-de-1` and Frankfurt 2 `eu-de-2` DCs only . 
+: Version 1.6.0 includes backward-incompatible changes for Frankfurt 1 `eu-de-1` and Frankfurt 2 `eu-de-2` DCs only .
     - Do not upgrade to this version if previous deployments were made in Frankfurt 1 `eu-de-1` and Frankfurt 2 `eu-de-2` {{site.data.keyword.powerSys_notm}} zone as doing so will corrupt the landscape because of switch from Cloud connections to PER. This will not convert old workspaces into PER enabled workspaces.
     - Use this version for new deployments in Frankfurt 1 `eu-de-1` and Frankfurt 2 `eu-de-2` {{site.data.keyword.powerSys_notm}} zones.
     - Deployments done in other {{site.data.keyword.powerSys_notm}} zone can be upgraded with any issue.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024, 2025
-lastupdated: "2025-01-14"
+  years: 2023, 2025
+lastupdated: "2025-02-18"
 subcollection: sap-powervs
 content-type: tutorial
 services: vpc, secrets-manager, dl, schematics
@@ -42,7 +42,7 @@ By using the {{site.data.keyword.cloud_notm}} console:
 1.  Open the OpenVPN client application, and import the `client2site-vpn.ovpn` file which was downloaded in Step 1.
 1.  Enter one of the {{site.data.keyword.cloud_notm}} email addresses that was configured to access the VPN as the user ID.
 1.  Go to [https://iam.cloud.ibm.com/identity/passcode](https://iam.cloud.ibm.com/identity/passcode) in your browser to generate a passcode. Copy the passcode.
-1.  Return to the OpenVPN client application and paste the one-time passcode. 
+1.  Return to the OpenVPN client application and paste the one-time passcode.
 1.  Click Continue.
 
 
