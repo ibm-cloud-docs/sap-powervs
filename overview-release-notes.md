@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-02-24"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -16,6 +16,18 @@ keywords:
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## February 2025
+{: #sap-powervs-2025-02}
+
+### 24 February 2025
+{: #sap-powervs-feb24}
+{: release-note}
+
+Version 3.5.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 3.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Ensured the use of a strong Ansible Vault password with 15-100 characters, including at least one uppercase letter, one lowercase letter, one number, and one special character from the allowed set: !#$%&()*+-.:;<=>?@[]_{|}~.
+    - Upgrade IBM TF provider to `1.75.2`
 
 ## January 2025
 {: #sap-powervs-2025-01}
