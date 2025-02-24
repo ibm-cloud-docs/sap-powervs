@@ -26,6 +26,7 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 Version 3.5.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 3.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Support BYOL and Bring Your Own Images for SAP HANA and SAP NETWEAVER.
     - Ensured the use of a strong Ansible Vault password with 15-100 characters, including at least one uppercase letter, one lowercase letter, one number, and one special character from the allowed set: !#$%&()*+-.:;<=>?@[]_{|}~.
     - Upgrade IBM TF provider to `1.75.2`
 
