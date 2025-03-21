@@ -27,7 +27,7 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 Version 3.6.2 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 3.6.2 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - New feature **{{site.data.keyword.sysdigsecure_full_notm}}**
-    - The deployable architecture picks up details from landing zone deployment and installs and sets up Sysdig agent on the {{site.data.keyword.powerSys_notm}} instances if {{site.data.keyword.secrets-manager_short}} is enabled in the landing zone
+    - The deployable architecture picks up details from landing zone deployment and installs and sets up Sysdig agent on the {{site.data.keyword.powerSys_notm}} instances if {{site.data.keyword.sysdigsecure_short}} is enabled in the landing zone
 
 ## February 2025
 {: #sap-powervs-2025-02}
@@ -39,7 +39,7 @@ Version 3.6.2 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 Version 3.5.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 3.5.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
     - Support BYOL and Bring Your Own Images for SAP HANA and SAP NETWEAVER.
-    - Ensured the use of a strong Ansible Vault password with 15-100 characters, including at least one uppercase letter, one lowercase letter, one number, and one special character from the allowed set: !#$%&()*+-.:;<=>?@[]_{|}~.
+    - Ensured the use of a strong Ansible Vault password with 15-100 characters, including at least one uppercase letter, one lowercase letter, one number, and one special character from the allowed set: !#$%&()*+-.:;&lt;=&gt;?@[]_{|}~.
     - Upgrade IBM TF provider to `1.75.2`
 
 ## January 2025
