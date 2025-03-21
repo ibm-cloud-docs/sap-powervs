@@ -26,7 +26,7 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 Version 3.6.2 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 3.6.2 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
-    - New feature [**{{site.data.keyword.sysdigsecure_full_notm}}**](/docs/workload-protection?topic=workload-protection-key-features) instance and Sysdig agent installation on all {{site.data.keyword.powerSys_notm}} instances. {{site.data.keyword.sysdigsecure_full_notm}} helps to find and prioritize software vulnerabilities, detect and respond to threats, and manage configurations, permissions, and compliance from source to run.
+    - New feature [**{{site.data.keyword.sysdigsecure_full}}**](/docs/workload-protection?topic=workload-protection-key-features) instance and Sysdig agent installation on all {{site.data.keyword.powerSysShort}} instances. {{site.data.keyword.sysdigsecure_full}} helps to find and prioritize software vulnerabilities, detect and respond to threats, and manage configurations, permissions, and compliance from source to run.
     - The deployable architecture picks up details from landing zone deployment and installs and sets up Sysdig agent on the {{site.data.keyword.powerSys_notm}} instances if {{site.data.keyword.sysdigsecure_short}} is enabled in the landing zone
 
 ## February 2025
