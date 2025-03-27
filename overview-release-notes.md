@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-03-27"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -19,6 +19,15 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 ## March 2025
 {: #sap-powervs-2025-03}
+
+### 27 March 2025
+{: #sap-powervs-mar27}
+{: release-note}
+
+Version 3.6.3 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 3.6.3 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Add validation for hana instance hostname length to not exceed 13 characters, as required by the sap preconfigure ansible roles
+    - Update default SLES image to SLES15-SP6
 
 ### 21 March 2025
 {: #sap-powervs-mar21}
