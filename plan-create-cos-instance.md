@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-11-07"
+  years: 2023, 2025
+lastupdated: "2025-03-28"
 subcollection: sap-powervs
 content-type: tutorial
 services: cloud-object-storage
@@ -78,7 +78,7 @@ Before you can create a storage bucket to store the SAP installation files, you 
 
     - By using the {{site.data.keyword.cloud_notm}} console:
         1.  Navigate to **Cloud Object Storage**:
-            1.  Click the **Navigation menu** icon ![Navigation menu icon](../icons/icon_hamburger.svg "Menu") > **Classic Infrastructure** > **Object Storage**
+            1.  Click the **Navigation menu** icon ![Navigation menu icon](../icons/icon_hamburger.svg "Menu") > **Infrastructure** > **Storage** > **Object Storage**
             1.  Click **Create an instance**
         1.  Configure a Cloud Object Storage service instance
             1.  Under **Choose an Infrastructure**, select **IBM Cloud**.
