@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-04-03"
 subcollection: sap-powervs
 keywords: iam, permissions, plan, ssh key
 content-type: tutorial
@@ -74,7 +74,7 @@ Determine the size parameters for each SAP workload that you plan to deploy. The
 
 For more information, see [Sizing process for SAP Systems](/docs/sap?topic=sap-sizing) and see [SAP Sizing](https://www.sap.com/about/benchmark/sizing.html).
 
-For deployment of each SAP system, you must be aware about how many SAP NetWeaver instances you plan to deploy. Decide whether you plan to use a separate PowerVS instance for hosting SAP shared files.
+For deployment of each SAP system, you must be aware about how many SAP NetWeaver instances you plan to deploy.
 
 For deployment of each SAP NetWeaver PowerVS instance, you must be aware of the following sizing parameters:
 
