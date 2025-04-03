@@ -20,8 +20,8 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 ## April 2025
 {: #sap-powervs-2025-04}
 
-### TODOdate April 2025
-{: #sap-powervs-aprTODOdate}
+### 03 date April 2025
+{: #sap-powervs-apr03}
 {: release-note}
 
 Version 4.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
