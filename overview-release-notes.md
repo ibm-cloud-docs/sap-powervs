@@ -26,12 +26,12 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 Version 4.0.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
 : Version 4.0.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
-    - The {{site.data.keyword.powerSysFull}} sharefs instance has been removed
-    - For 'SAP ready PowerVS' variation only: if more than 1 NetWeaver instance is selected, /sapmnt directory is exported by the primary NetWeaver instance as NFS share and mounted on all other NetWeaver instances
+    - The {{site.data.keyword.powerSysFull}} instance used for file sharing has been removed
+    - For 'SAP ready PowerVS' variation only: if more than 1 NetWeaver instance is selected, `/sapmnt` directory is exported by the primary NetWeaver instance as NFS share and mounted on all other NetWeaver instances
 
 [Warning]{: tag-red}
 : Version 4.0.0 includes backward-incompatible changes.
-    - The {{site.data.keyword.powerSysFull}} sharefs instance has been removed and upgrading from an old version will lead to the data stored on the instance being lost.
+    - The {{site.data.keyword.powerSysFull}} instance used for file sharing has been removed and upgrading from an old version will lead to the data stored on the instance being lost.
     - Do not upgrade to this version if there were previous deployments.
     - Use this for new deployments only.
 
