@@ -20,7 +20,7 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 ## April 2025
 {: #sap-powervs-2025-04}
 
-### 03 date April 2025
+### 03 April 2025
 {: #sap-powervs-apr03}
 {: release-note}
 
