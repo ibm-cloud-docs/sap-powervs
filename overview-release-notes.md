@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-04-22"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -19,6 +19,16 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 ## April 2025
 {: #sap-powervs-2025-04}
+
+### 22 April 2025
+{: #sap-powervs-apr22}
+{: release-note}
+
+Version 4.1.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 4.1.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - NetWeaver instances are now created by default on Power 10 (s1022) in the following regions:`dal10, dal12, dal14, eu-de-1, eu-de-2, mad02, mad04, osa21, sao01, sao04, tok04, wdc06, wdc07`
+    - In the following regions `s922` is used: `che01, lon04, lon06, mon01, syd04, syd05, tor01, us-east, us-south`
+    - upgrade powervs-instance to `2.6.1`
 
 ### 03 April 2025
 {: #sap-powervs-apr03}
