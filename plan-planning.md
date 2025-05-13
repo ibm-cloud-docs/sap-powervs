@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-05-12"
+lastupdated: "2025-05-13"
 subcollection: sap-powervs
 keywords: iam, permissions, plan, ssh key
 content-type: tutorial
@@ -49,8 +49,8 @@ For information about configuring permissions, contact your {{site.data.keyword.
 
 Only following variations are supported to proceed with the deployment of SAP Ready PowerVS and SAP S/4HANA or BW/4HANA.
 
-- Create a new architecture: [Standard Variation](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-standard)
-- Extend {{site.data.keyword.powerSysFull}} with VPC landing zone: [Standard Variation](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-extension)
+- Create a new architecture: [Standard Landscape Variation](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-standard)
+- Extend {{site.data.keyword.powerSysFull}} with VPC landing zone: [Extend Standard Landscape Variation](/docs/powervs-vpc?topic=powervs-vpc-deploy-arch-ibm-pvs-inf-extension)
 
 
 The ID of this schematics workspace will be the pre-requisite workspace id required by '{{site.data.keyword.powerSysFull}} for SAP HANA' to create and configure the PowerVS instances for SAP on top of the existing infrastructure.
