@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-05-13"
 subcollection: sap-powervs
 keywords: powervs, landing zone, sap, automation, deployable architecture, hana, s4hana, bw4hana
 
@@ -58,7 +58,7 @@ SAP-tuned HANA and NetWeaver configuration to IBM PowerVS hosts
 ### Prerequisites
 {: #overview-sap-ready-powervs-prerequisites}
 
-1. If you do not have a [Standard Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) create it first.
+1. If you do not have a [Standard Landscape Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global) create it first.
 
 ### Notes
 {: #overview-sap-ready-powervs-notes}
@@ -103,7 +103,7 @@ SAP S/4HANA or SAP BW/4HANA installation configuration to IBM PowerVS hosts.
 ### Prerequisites
 {: #overview-sap-s4hana-bw4hana-prerequisites}
 
-1. If you do not have a [Standard Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
+1. If you do not have a [Standard Landscape Variation of {{site.data.keyword.powerSysFull}} with VPC landing zone deployment](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-inf-2dd486c7-b317-4aaa-907b-42671485ad96-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXBvd2VyI3NlYXJjaF9yZXN1bHRz) create it first.
 1.  **It is required to have an existing IBM Cloud Object Storage (COS) instance**. Within the instance, an Object Storage Bucket containing the **SAP Software installation media files is required in the correct folder structure as defined**. Instructions can be found [here](/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance).
 
 
