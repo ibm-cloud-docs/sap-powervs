@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-07-25"
+lastupdated: "2025-09-09"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -16,6 +16,17 @@ keywords:
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## September 2025
+{: #sap-powervs-2025-09}
+
+### 09 sep 2025
+{: #sap-powervs-sep09}
+{: release-note}
+
+Version 4.2.2 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 4.2.2 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - Support HANA SP08 installations
 
 ## July 2025
 {: #sap-powervs-2025-07}
