@@ -1,4 +1,5 @@
 includes:
-  - https://github.ibm.com/cloud-docs-solutions/deployable-reference-architectures
-  - https://github.ibm.com/cloud-docs/schematics
-  - https://github.ibm.com/cloud-docs-solutions/secure-enterprise
+- https://github.ibm.com/cloud-docs-solutions/deployable-reference-architectures
+- https://github.ibm.com/cloud-docs/schematics
+- https://github.ibm.com/cloud-docs-solutions/secure-enterprise
+- https://github.ibm.com/cloud-docs-solutions/powervs-vpc

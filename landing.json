@@ -1,52 +1,52 @@
 {
-    "version": 2,
-    "title": "Power Virtual Server for SAP HANA",
-    "introduction": "This deployable architecture is designed to assist you in deploying SAP ERP software landscapes into IBM Cloud on the IBM Power Virtual Server infrastructure. This is the second step in the deployment process for creating a full environment. Before starting this step, you should first deploy 'Power Virtual Server with VPC landing zone' deployable architecture. Once this is completed, you are prepared to start this step",
-    "deployment_url": "https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global",
-    "section_topics": {
-        "links": [
-            {
-                "title": "Overview of the Power Virtual Server for SAP HANA",
-                "href": "/docs/sap-powervs?topic=sap-powervs-automation-solution-overview"
-            },
-            {
-                "title": "Dependencies for the deployable architecture",
-                "href": "/docs/sap-powervs?topic=sap-powervs-automation-dependencies"
-            },
-            {
-                "title": "SAP binaries for S/4HANA or BW/4HANA Deployment",
-                "href": "/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance"
-            }
-        ]
+  "version": 2,
+  "title": "Power Virtual Server for SAP HANA",
+  "introduction": "This deployable architecture is designed to assist you in deploying SAP ERP software landscapes into IBM Cloud on the IBM Power Virtual Server infrastructure. This is the second step in the deployment process for creating a full environment. Before starting this step, you should first deploy 'Power Virtual Server with VPC landing zone' deployable architecture. Once this is completed, you are prepared to start this step",
+  "deployment_url": "https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Overview of the Power Virtual Server for SAP HANA",
+        "href": "/docs/sap-powervs?topic=sap-powervs-automation-solution-overview"
+      },
+      {
+        "title": "SAP binaries for S/4HANA or BW/4HANA Deployment",
+        "href": "/docs/sap-powervs?topic=sap-powervs-solution-create-cos-instance"
+      },
+      {
+        "title": "Deploy the SAP architecture",
+        "href": "/docs/sap-powervs?topic=sap-powervs-deploy-cloud"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Turn Your Terraform Templates into Deployable Architectures",
+      "description": "Turn a simple Terraform template into a deployable architecture in a private IBM Cloud catalog.",
+      "href": "https://www.ibm.com/think/insights/turn-your-terraform-templates-into-deployable-architectures",
+      "type": "blog"
     },
-    "section_highlights": [
-        {
-            "title": "Turn Your Terraform Templates into Deployable Architectures",
-            "description": "Turn a simple Terraform template into a deployable architecture in a private IBM Cloud catalog.",
-            "href": "https://www.ibm.com/think/insights/turn-your-terraform-templates-into-deployable-architectures",
-            "type": "blog"
-        },
-        {
-            "title": "Introducing the IBM Cloud Terraform modules for developers",
-            "description": "Curated Terraform modules in an IaC solution for IBM Cloud.",
-            "href": "https://developer.ibm.com/blogs/awb-curated-ibm-cloud-terraform-modules-for-developers/",
-            "type": "blog",
-            "recommended": true
-        }
-    ],
-    "section_architectures": [
-        {
-            "title": "SAP Ready PowerVS",
-            "href": "/docs/sap-powervs?topic=sap-powervs-sap-ready-to-go",
-            "deployable": true
-        },
-        {
-            "title": "SAP S/4HANA or BW/4HANA",
-            "href": "/docs/sap-powervs?topic=sap-powervs-sap-s4hana-bw4hana",
-            "deployable": true
-        }
-    ],
-    "section_updates": {
-        "view_more": "/docs/sap-powervs?topic=sap-powervs-automation-solution-relnotes"
+    {
+      "title": "Introducing the IBM Cloud Terraform modules for developers",
+      "description": "Curated Terraform modules in an IaC solution for IBM Cloud.",
+      "href": "https://developer.ibm.com/blogs/awb-curated-ibm-cloud-terraform-modules-for-developers/",
+      "type": "blog",
+      "recommended": true
     }
+  ],
+  "section_architectures": [
+    {
+      "title": "SAP Ready PowerVS",
+      "href": "/docs/sap-powervs?topic=sap-powervs-sap-ready-to-go",
+      "deployable": true
+    },
+    {
+      "title": "SAP S/4HANA or BW/4HANA",
+      "href": "/docs/sap-powervs?topic=sap-powervs-sap-s4hana-bw4hana",
+      "deployable": true
+    }
+  ],
+  "section_updates": {
+    "view_more": "/docs/sap-powervs?topic=sap-powervs-automation-solution-relnotes"
+  }
 }

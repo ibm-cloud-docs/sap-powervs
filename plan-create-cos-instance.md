@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-10-30"
 subcollection: sap-powervs
 content-type: tutorial
 services: cloud-object-storage
@@ -47,6 +47,7 @@ Once you finished installing IBMCloud CLI, install the cloud-object-storage plug
 ```sh
 ibmcloud plugin install cloud-object-storage
 ```
+{: pre}
 
 Generate an API key to login with the CLI:
 1.  Login to the {{site.data.keyword.cloud_notm}} console
@@ -58,6 +59,7 @@ Login via the IBMCloud CLI:
 ```sh
 ibmcloud login --api-key <your-api-key>
 ```
+{: pre}
 
 ### Install AWS CLI to upload the binaries (optional)
 {: #solution-create-cos-instance-prereq-aws-cli}
@@ -123,6 +125,7 @@ Before you can create a storage bucket to store the SAP installation files, you 
     # Create service credentials. Make sure to save the HMAC keys from the output
     ibmcloud resource service-key-create <key-name-without-spaces> Manager --instance-name "<service instance name--use quotes if your instance name has spaces>" --parameters '{"HMAC":true}'
     ```
+    {: pre}
 
 1.  Create a Storage Bucket:
 
@@ -157,6 +160,7 @@ Before you can create a storage bucket to store the SAP installation files, you 
         # make sure to pick a region close to your deployment
         ibmcloud cos bucket-create --bucket <bucket-name> --region <region>
         ```
+        {: pre}
 
         In case you didn't note down your service id in the previous step, you can obtain it with the following command: `ibmcloud resource service-instance <service-instance-name>` or `ibmcloud resource service-instances --long`
         {: tip}

@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: sap-powervs
@@ -14,71 +13,71 @@ toc:
     description: Deploy your first SAP-ready landscape by using SAP solution provisioning with a deployable architecture.
     label: Power Virtual Server for SAP HANA
   entries:
-    - navgroup:
-        id: overview
-        topics:
-          - navtitle: Overview
-            topic: overview-overview.md
-          - navtitle: Release notes
-            topic: overview-release-notes.md
-    - navgroup:
-        id: architecture
-        topics:
-          - navtitle: SAP Ready PowerVS
-            include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
-          - navtitle: SAP S/4HANA or BW/4HANA
-            include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-s4hana-bw4hana/deploy-arch-ibm-pvs-sap-s4hana-bw4hana.md
-    - navgroup:
-        id: plan
-        topics:
-          - navtitle: Dependencies
-            topic: plan-dependencies.md
-          - navtitle: Before you begin deploying
-            topic: plan-planning.md
-          - navtitle: Prepare HANA binaries in COS
-            topic: plan-create-cos-instance.md
-    - navgroup:
-        id: deploy
-        topics:
-          - navtitle: Deploy using Projects
-            topic: deploy-deploying.md
-          - navtitle: Destroy using Projects
-            topic: deploy-destroying.md
-    - navgroup:
-        id: tutorial
-        topics:
-          - navtitle: Connect by using a client-to-site VPN
-            topic: tutorial-connect-client-vpn.md
-          - navtitle: Connect using Floating IP
-            topic: tutorial-connect-jump-ssh.md
-    - navgroup:
-        id: reference
-        topics:
-          - navtitle: Responsibilities
-            topic: reference-shared-responsibilities.md
-    - navgroup:
-        id: help
-        topics:
-          - navtitle: Getting help and support
-            topic: help-support.md
-          - navtitle: FAQs
-            topic: help-faqs.md
+  - navgroup:
+      id: overview
+      topics:
+      - navtitle: Overview
+        topic: overview-overview.md
+      - navtitle: Release notes
+        topic: overview-release-notes.md
+      - navtitle: VPC landing zone architecture for Power Virtual Server
+        include: ../powervs-vpc/overview-vpc-landing-zone-preset.md
+  - navgroup:
+      id: architecture
+      topics:
+      - navtitle: SAP Ready PowerVS
+        include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-ready-to-go/deploy-arch-ibm-pvs-sap-ready-to-go.md
+      - navtitle: SAP S/4HANA or BW/4HANA
+        include: ../deployable-reference-architectures/terraform-ibm-powervs-sap/sap-s4hana-bw4hana/deploy-arch-ibm-pvs-sap-s4hana-bw4hana.md
+  - navgroup:
+      id: plan
+      topics:
+      - navtitle: Before you begin deploying
+        topic: plan-planning.md
+      - navtitle: Prepare HANA binaries in COS
+        topic: plan-create-cos-instance.md
+  - navgroup:
+      id: deploy
+      topics:
+      - navtitle: Deploy using Projects
+        topic: deploy-deploying.md
+      - navtitle: Destroy using Projects
+        topic: deploy-destroying.md
+  - navgroup:
+      id: tutorial
+      topics:
+      - navtitle: Connect by using a client-to-site VPN
+        topic: tutorial-connect-client-vpn.md
+      - navtitle: Connect using Floating IP
+        topic: tutorial-connect-jump-ssh.md
+  - navgroup:
+      id: reference
+      topics:
+      - navtitle: Responsibilities
+        topic: reference-shared-responsibilities.md
+  - navgroup:
+      id: help
+      topics:
+      - navtitle: Getting help and support
+        topic: help-support.md
+      - navtitle: FAQs
+        topic: help-faqs.md
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - navtitle: My deployment failed how do I proceed?
+            topic: help-troubleshoot-ts-deploy.md
           - topicgroup:
-              label: Troubleshooting
+              label: Troubleshooting projects
               topics:
-                - navtitle: My deployment failed how do I proceed?
-                  topic: help-troubleshoot-ts-deploy.md
-                - topicgroup:
-                    label: Troubleshooting projects
-                    topics:
-                      - navtitle: How do I address a failed validation?
-                        include: ../secure-enterprise/ts-needs-attention.md
-                      - navtitle: How do I address a failed deployment?
-                        include: ../secure-enterprise/ts-deploy.md
-                - topicgroup:
-                    label: Troubleshooting Schematics
-                    topics:
-                      - navtitle: Why am I getting 5xx errors in Schematics?
-                        include: ../schematics/troubleshooting/apply_500_errors.md
-                      - navtitle: How can I find the root cause of Schematics apply failures?
-                        include: ../schematics/troubleshooting/apply_nullresource.md
+              - navtitle: How do I address a failed validation?
+                include: ../secure-enterprise/ts-needs-attention.md
+              - navtitle: How do I address a failed deployment?
+                include: ../secure-enterprise/ts-deploy.md
+          - topicgroup:
+              label: Troubleshooting Schematics
+              topics:
+              - navtitle: Why am I getting 5xx errors in Schematics?
+                include: ../schematics/troubleshooting/apply_500_errors.md
+              - navtitle: How can I find the root cause of Schematics apply failures?
+                include: ../schematics/troubleshooting/apply_nullresource.md
