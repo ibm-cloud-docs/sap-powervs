@@ -17,17 +17,6 @@ keywords:
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
-## November 2025
-{: #sap-powervs-2025-11}
-
-### 24 November 2025
-{: #sap-powervs-nov24}
-{: release-note}
-
-Version 5.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
-: Version 5.0.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
-    - The ansible module now only reinstalls packages if a newer version is available, preventing unnecessary reinstalls
-
 ## January 2026
 {: #powervs-vpc-2026-01}
 
@@ -43,6 +32,17 @@ Version 6.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
 
         - support new DC sao05
         - storage calculation for HANA data file system now use a factor of 1.2 times memory
+
+## November 2025
+{: #sap-powervs-2025-11}
+
+### 24 November 2025
+{: #sap-powervs-nov24}
+{: release-note}
+
+Version 5.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 5.0.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+    - The ansible module now only reinstalls packages if a newer version is available, preventing unnecessary reinstalls
 
 ## October 2025
 {: #sap-powervs-2025-10}
