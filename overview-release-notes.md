@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-01-15"
+lastupdated: "2026-03-23"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -17,6 +17,18 @@ keywords:
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
 
+## March 2026
+{: #powervs-vpc-2026-03}
+
+### 23 March 2026
+{: #powervs-vpc-mar23-2026}
+{: release-note}
+
+Version 6.1.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 6.1.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+   - support new datacenters `che02` and `che03`
+   - fixes ssh login issue for remote-exec in ansible modules
+
 ## January 2026
 {: #powervs-vpc-2026-01}
 
@@ -30,7 +42,7 @@ Version 6.0.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.
             - The VPC zone is now selected so it's in the same availability zone as the selected PowerVS zone. For more information about availability zone mapping refer to [IBM Cloud regions](/docs/power-iaas?topic=power-iaas-ibm-cloud-reg).
             - Upgrading existing deployments from a previous version is not recommended because VPC components that weren't created in the same availability zone as the selected PowerVS zone will be destroyed and re-deployed.
 
-        - support new DC sao05
+        - support new datacenter `sao05`
         - storage calculation for HANA data file system now use a factor of 1.2 times memory
 
 ## November 2025
