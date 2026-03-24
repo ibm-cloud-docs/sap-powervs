@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-03-23"
+lastupdated: "2026-03-24"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -19,6 +19,14 @@ Use these release notes to learn about the latest updates to the {{site.data.key
 
 ## March 2026
 {: #powervs-vpc-2026-03}
+
+### 24 March 2026
+{: #powervs-vpc-mar24-2026}
+{: release-note}
+
+Version 6.1.1 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 6.1.1 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+   - Upgrade the app configuration module to add support for the `Chennai` region
 
 ### 23 March 2026
 {: #powervs-vpc-mar23-2026}
