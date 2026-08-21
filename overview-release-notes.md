@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-03-24"
+lastupdated: "2026-08-21"
 subcollection: sap-powervs
 content-type: release-note
 keywords:
@@ -16,6 +16,18 @@ keywords:
 
 Use these release notes to learn about the latest updates to the {{site.data.keyword.powerSys_notm}} for SAP HANA. The entries are grouped by date.
 {: shortdesc}
+
+## August 2026
+{: #powervs-vpc-2026-08}
+
+### 21 August 2026
+{: #powervs-vpc-aug21-2026}
+{: release-note}
+
+Version 6.2.0 of the {{site.data.keyword.powerSysFull}} for {{site.data.keyword.powerSys_notm}} for SAP HANA deployable architecture is available
+: Version 6.2.0 of the [{{site.data.keyword.powerSys_notm}} for SAP HANA](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-pvs-sap-9aa6135e-75d5-467e-9f4a-ac2a21c069b8-global){: external} deployable architecture is available in the {{site.data.keyword.cloud_notm}} [catalog](/catalog#reference_architecture){: external}.
+   - Enable Power10 support for `mon01` and `us-east` data centers. 
+
 
 ## March 2026
 {: #powervs-vpc-2026-03}
