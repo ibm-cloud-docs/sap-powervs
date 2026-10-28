@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2025
-lastupdated: "2025-10-30"
+  years: 2023, 2026
+lastupdated: "2026-10-28"
 subcollection: sap-powervs
 keywords: powervs, landing zone, sap, automation, deployable architecture, hana, s4hana, bw4hana
 
@@ -60,6 +60,7 @@ This deployable architecture variation deploys these resources:
 |  Intel VSI                                  |          | Jump box with 2 cores, 4GB memory running RHEL 9.6 with floating IP attached                                                                                                                                                                                                                                                        |
 |  Intel VSI                                  |          | Network Services running RHEL 9.6 configured as squid proxy, NTP and DNS servers(using Ansible Galaxy collection roles [IBM Power Linux for SAP](https://galaxy.ansible.com/ui/repo/published/ibm/power_linux_sap/)). Also configured as central ansible execution node. Default size is 2 cores and 4 GB memory. Can be customized.|
 | Intel VSI,\nIBM Cloud Monitoring Instance   | Yes      | Monitoring Host running SLES 15SP6 to collect metrics and forward it to IBM Monitoring Instance\n [IBM Cloud monitoring Instance](/docs/monitoring) displays the platform metrics and OS metrics                                                                                                                                    |
+|  Intel VSI                                  |     Yes     | Configures the two SAP Web Dispatcher Intel VSIs: enables the RHEL for SAP repositories, mounts the shared NFS share, sets up swap, runs the SAP general and NetWeaver preconfigure roles, downloads the Web Dispatcher binaries from Cloud Object Storage and installs SAP Web Dispatcher with SWPM.                     |
 | File storage share,\n Network load balancer | Yes      | [NFS as a Service](/docs/vpc?topic=vpc-file-storage-create&interface=ui)\n [Network Load Balancer](/docs/vpc?group=network-load-balancer) is deployed along with File storage share to access the share IP from Power Virtual Server                                                                                                |
 | Virtual Private Endpoint Gateway            |          | A [Virtual Private Endpoint Gateway](/docs/vpc?topic=vpc-about-vpe) to reach the Cloud Object Storage bucket                                                                                                                                                                                                                        |
 | Flow Logs for VPC                           |          | [Flow Logs for VPC](/docs/vpc?topic=vpc-flow-logs) enables the collection, storage, and presentation of information about the Internet Protocol (IP) traffic going to and from network interfaces within your VPC                                                                                                                   |
